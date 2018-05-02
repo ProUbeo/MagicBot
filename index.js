@@ -41,12 +41,14 @@ if(message.content === "magie!glace"){
 if (message.content === "magie!help 1" ){  
 
     const embed = new Discord.RichEmbed()
-    .setTitle("magie niveau 1")
+    .setTitle("Magie niveau 1")
     .setColor(0x0086AE)
-    .setDescription("voici toute les attaque qu'un mage niveau 1 peu faire")
-    .setFooter("si vous avez un probleme demander de l'aide a un modo ou au autre")
-    .addField("commande magique",
-      "magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
+    .setDescription("Voici toute les attaque qu'un mage niveau 1 peu faire")
+    .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
+    .addField("Commande magique",
+      "magie!feu (-25PV) (utilisable 3 foix)\nmagie!tornade (-25PV)\nmagie!stick-magic (-15PV) (utilisable 3 foix)\nmagie!nature (-25PV)\nmagie!glace (-20PV)")
+      .addField("Nombre de PV",
+      "100PV pour un mage niveau 1")
   
     message.channel.send({embed});
 }
