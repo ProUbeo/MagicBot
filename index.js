@@ -38,15 +38,17 @@ if(message.content === "magie!glace"){
     file: "https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif"
 })
 }
-if(message.content === "magie!help 1"){ 
- 
-    const embed = new Discord.RichEmbed()
-    .setTitle("commande magique")
-    .setColor(0x0086AE)
-    .setDescription("magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
-    .setFooter("un probleme ?\ndemander a un modo :D")
+if (message.content === "magie!help 1" ){  
 
-        message.channel.send({embed});
-    }
+    const embed = new Discord.RichEmbed()
+    .setTitle("magie niveau 1")
+    .setColor(0x0086AE)
+    .setDescription("voici toute les attaque qu'un mage niveau 1 peu faire")
+    .setFooter("si vous avez un probleme demander de l'aide a un modo ou au autre")
+    .addField("commande magique",
+      "magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
+  
+    message.channel.send({embed});
+}
 }
 )
