@@ -14,10 +14,10 @@ bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
 
-    
+
     if(message.content === "magie!feu"){ 
-        message.channel.send(`**${message.author.username}** lance la capacité de feu à été utilisé !\nDégâts : 25`,{
-        file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif?w=595"
+        message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
+        file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
     })}
 }
 )
