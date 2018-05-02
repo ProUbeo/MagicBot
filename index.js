@@ -13,8 +13,13 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-
-
+    if(message.content === "magie!help 1"){ //sakamoto help
+ 
+        const embed = new Discord.RichEmbed()
+        .setTitle("commande magique")
+        .setColor(0x0086AE)
+        .setDescription("magier!feu\nmagie!tornade\nmagie!stickmagic\nmagie!nature\nmagie!glace")
+    }
     if(message.content === "magie!feu"){ 
         message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
