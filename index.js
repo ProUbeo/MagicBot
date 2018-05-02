@@ -35,5 +35,10 @@ if(message.content === "magie!nature"){
     file: "https://i.pinimg.com/originals/69/eb/43/69eb43047ff86ade658b2c677c0567ee.gif"
 })
 }
+if(message.content === "magie!glace"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité glace!\nDégâts : 20`,{
+    file: "https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif"
+})
+}
 }
 )
