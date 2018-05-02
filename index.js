@@ -20,12 +20,9 @@ bot.on('message', message => {
         .setColor(0x0086AE)
         .setDescription("magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
         .setFooter("un probleme ?\ndemander a un modo :D")
-        if(message.content === "sakamoto!help"){ 
 
             message.channel.send({embed});
         }
-
-    }
     if(message.content === "magie!feu"){ 
         message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
