@@ -13,13 +13,17 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-    if(message.content === "magie!help 1"){ //sakamoto help
+    if(message.content === "magie!help 1"){ 
  
         const embed = new Discord.RichEmbed()
         .setTitle("commande magique")
         .setColor(0x0086AE)
         .setDescription("magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
         .setFooter("un probleme ?\ndemander a un modo :D")
+        if(message.content === "sakamoto!help"){ 
+
+            message.channel.send({embed});
+        }
 
     }
     if(message.content === "magie!feu"){ 
