@@ -18,6 +18,11 @@ bot.on('message', message => {
     if(message.content === "magie!feu"){ 
         message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
-    })}
+    })
+}
+if(message.content === "magie!tornade"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité tornade!\nDégâts : 25`,{
+    file: "https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif"
+})}
 }
 )
