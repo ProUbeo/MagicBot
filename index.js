@@ -18,7 +18,9 @@ bot.on('message', message => {
         const embed = new Discord.RichEmbed()
         .setTitle("commande magique")
         .setColor(0x0086AE)
-        .setDescription("magier!feu\nmagie!tornade\nmagie!stickmagic\nmagie!nature\nmagie!glace")
+        .setDescription("magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
+        .setFooter("un probleme ?\ndemander a un modo :D")
+
     }
     if(message.content === "magie!feu"){ 
         message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
