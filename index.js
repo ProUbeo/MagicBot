@@ -13,16 +13,6 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-    if(message.content === "magie!help 1"){ 
- 
-        const embed = new Discord.RichEmbed()
-        .setTitle("commande magique")
-        .setColor(0x0086AE)
-        .setDescription("magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
-        .setFooter("un probleme ?\ndemander a un modo :D")
-
-            message.channel.send({embed});
-        }
     if(message.content === "magie!feu"){ 
         message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
@@ -48,5 +38,15 @@ if(message.content === "magie!glace"){
     file: "https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif"
 })
 }
+if(message.content === "magie!help 1"){ 
+ 
+    const embed = new Discord.RichEmbed()
+    .setTitle("commande magique")
+    .setColor(0x0086AE)
+    .setDescription("magie!feu\nmagie!tornade\nmagie!stick-magic\nmagie!nature\nmagie!glace")
+    .setFooter("un probleme ?\ndemander a un modo :D")
+
+        message.channel.send({embed});
+    }
 }
 )
