@@ -23,6 +23,17 @@ bot.on('message', message => {
 if(message.content === "magie!tornade"){ 
     message.channel.send(`**${message.author.username}** lance la capacité tornade!\nDégâts : 25`,{
     file: "https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif"
-})}
+})
+}
+if(message.content === "magie!stick-magic"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité stick magic!\nDégâts : 15`,{
+    file: "https://orangemushroom.files.wordpress.com/2012/06/magic-booster-effect.gif"
+})
+}
+if(message.content === "magie!nature"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité orbe de la nature!\nDégâts : 25`,{
+    file: "https://i.pinimg.com/originals/69/eb/43/69eb43047ff86ade658b2c677c0567ee.gif"
+})
+}
 }
 )
