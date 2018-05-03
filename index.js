@@ -76,5 +76,9 @@ if (message.content === "magie!help 2"){
 
     message.channel.send({embed});
 }
+if(message.content === "magie!éclair"){ //magie 
+    message.channel.send(`**${message.author.username}** lance une attaque magique élèctrique sur ${user}`,{
+    file: "https://cdn.discordapp.com/attachments/434750011771977739/439130838559490052/02.gif"
+})}
 }
 )
