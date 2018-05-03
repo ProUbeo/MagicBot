@@ -52,5 +52,15 @@ if (message.content === "magie!help 1" ){
   
     message.channel.send({embed});
 }
+if (message.content === "magie!help" ){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("aide disponible ")
+    .setColor(0x0086AE)
+    .setDescription("magie!help 1")
+    .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
+  
+    message.channel.send({embed});
+}
 }
 )
