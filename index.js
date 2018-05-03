@@ -62,9 +62,10 @@ if (message.content === "magie!help" ){
   
     message.channel.send({embed});
 }
-if(message.mentions.members.first("magie!glace2.0"))
-message.channel.send(`**${message.author.username}** lance la capacité glace!\nDégâts : 20`,{
-    file: "https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif"
-})
+if(message.content == '/talkto') {
+    if(messagementions.users) { //It needs to find a user mention in the message
+        message.author.send('Hello!'); //It needs to send this message to the mentioned user
+}
+}
 }
 )
