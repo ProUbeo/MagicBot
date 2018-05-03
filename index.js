@@ -62,10 +62,17 @@ if (message.content === "magie!help" ){
   
     message.channel.send({embed});
 }
-if(message.content == '/talkto') {
-    if(messagementions.users) { //It needs to find a user mention in the message
-        message.author.send('Hello!'); //It needs to send this message to the mentioned user
-}
+if (message.content === "magie!help 1" ){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Magie niveau 2")
+    .setColor(0x0086AE)
+    .setDescription("Voici toute les attaque qu'un mage niveau 2 peu faire")
+    .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
+    .addField("Commande magique",
+      "!eclair : 50 de dégâts (utilisable 3 fois par match)\n!vent : 5 de dégâts (cumulable avec une autre attaque pour ajouter 5 dégâts voir plus)\n!ice-axe : normal : 50 de dégâts. et à sec par une attaque !feu: 10 de dégâts \n!slach : 15 de dégâts\n!implosion : 50 de dégâts (utilisable 1 fois par combats)\n!protection : défend de 25 de dégâts (mais si l'attaque fait plus tu es obligé de te faire toucher) (utilisable 3 fois par combats)")
+      .addField("Nombre de PV",
+      "200PV pour un mage niveau 2")
 }
 }
 )
