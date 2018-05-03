@@ -57,7 +57,7 @@ if (message.content === "magie!help" ){
     const embed = new Discord.RichEmbed()
     .setTitle("aide disponible ")
     .setColor(0x0086AE)
-    .setDescription("magie!help 1\nagie!help 2")
+    .setDescription("magie!help 1\nmagie!help 2")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
   
     message.channel.send({embed});
