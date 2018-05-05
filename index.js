@@ -38,6 +38,36 @@ if(message.content === "magie!glace"){
     file: "https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif"
 })
 }
+if(message.content === "magie!eclair"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité d'éléctricité!\nDégâts : 50`,{
+    file: "https://i.pinimg.com/originals/d7/f1/0e/d7f10ed0e12dce0a783373c2ae8b2c61.gif"
+})
+}
+if(message.content === "magie!vent"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité vent!\nDégâts : 5`,{
+    file: "https://i.pinimg.com/originals/98/51/59/985159cc49c09556b29c2264208028ca.gif"
+})
+}
+if(message.content === "magie!ice-axe"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité hache magique!\nDégâts : 50\nSec : 10`,{
+    file: "https://2img.net/h/i1200.photobucket.com/albums/bb340/x3TheAran595/Chaos21110011effect.gif"
+})
+}
+if(message.content === "magie!slach"){ 
+    message.channel.send(`**${message.author.username}** a utilisé compétence slach!\nDégâts : 15`,{
+    file: "https://i.pinimg.com/originals/9b/7f/62/9b7f623ff55be9b911b1f20c1f836250.gif"
+})
+}
+if(message.content === "magie!slach"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité implosion!\nDégâts : 50`,{
+    file: "https://conserver.files.wordpress.com/2010/03/09.gif?w=604"
+})
+}
+if(message.content === "magie!protection"){ 
+    message.channel.send(`**${message.author.username}** lance la capacité protection!\nMur défendant de : 25 dégâts`,{
+    file: "https://orangemushroom.files.wordpress.com/2012/06/anti-magic-shell-effect.gif?w=600"
+})
+}
 if (message.content === "magie!help 1" ){  
 
     const embed = new Discord.RichEmbed()
@@ -76,9 +106,5 @@ if (message.content === "magie!help 2"){
 
     message.channel.send({embed});
 }
-if(message.content === "magie!test"){ //magie 
-    message.channel.send(`**${message.author.username}** lance une attaque magique élèctrique sur ${username}`,{
-    file: "https://cdn.discordapp.com/attachments/434750011771977739/439130838559490052/02.gif"
-})}
 }
 )
