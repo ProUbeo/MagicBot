@@ -60,12 +60,12 @@ if(message.content === "magie!slach"){
 }
 if(message.content === "magie!slach"){ 
     message.channel.send(`**${message.author.username}** lance la capacité implosion!\nDégâts : 50`,{
-    file: "https://conserver.files.wordpress.com/2010/03/09.gif?w=604"
+    file: "https://conserver.files.wordpress.com/2010/03/09.gif"
 })
 }
 if(message.content === "magie!protection"){ 
     message.channel.send(`**${message.author.username}** lance la capacité protection!\nMur défendant de : 25 dégâts`,{
-    file: "https://orangemushroom.files.wordpress.com/2012/06/anti-magic-shell-effect.gif?w=600"
+    file: "https://orangemushroom.files.wordpress.com/2012/06/anti-magic-shell-effect.gif"
 })
 }
 if (message.content === "magie!help 1" ){  
