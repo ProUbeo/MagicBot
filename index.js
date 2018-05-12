@@ -13,57 +13,57 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-    if(message.content === "magie!feu"){ 
+    if(message.content.startsWith("magie!feu")){
         message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
     })
 }
-if(message.content === "magie!tornade"){ 
+if(message.content.startsWith("magie!tornade")){
     message.channel.send(`**${message.author.username}** lance la capacité tornade!\nDégâts : 25`,{
     file: "https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif"
 })
 }
-if(message.content === "magie!stick-magic"){ 
+if(message.content.startsWith("magie!stick-magic")){
     message.channel.send(`**${message.author.username}** lance la capacité stick magic!\nDégâts : 15`,{
     file: "https://orangemushroom.files.wordpress.com/2012/06/magic-booster-effect.gif"
 })
 }
-if(message.content === "magie!nature"){ 
+if(message.content.startsWith("magie!nature")){
     message.channel.send(`**${message.author.username}** lance la capacité orbe de la nature!\nDégâts : 25`,{
     file: "https://i.pinimg.com/originals/69/eb/43/69eb43047ff86ade658b2c677c0567ee.gif"
 })
 }
-if(message.content === "magie!glace"){ 
+if(message.content.startsWith("magie!glace")){
     message.channel.send(`**${message.author.username}** lance la capacité glace!\nDégâts : 20`,{
     file: "https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif"
 })
 }
-if(message.content === "magie!eclair"){ 
+if(message.content.startsWith("magie!éclair")){
     message.channel.send(`**${message.author.username}** lance la capacité d'éléctricité!\nDégâts : 50`,{
     file: "https://i.pinimg.com/originals/d7/f1/0e/d7f10ed0e12dce0a783373c2ae8b2c61.gif"
 })
 }
-if(message.content === "magie!vent"){ 
+if(message.content.startsWith("magie!vent")){ 
     message.channel.send(`**${message.author.username}** lance la capacité vent!\nDégâts : 5`,{
     file: "https://i.pinimg.com/originals/98/51/59/985159cc49c09556b29c2264208028ca.gif"
 })
 }
-if(message.content === "magie!ice-axe"){ 
+if(message.content.startsWith("magie!ice-axe")){ 
     message.channel.send(`**${message.author.username}** lance la capacité hache magique!\nDégâts : 50\nSec : 10`,{
     file: "https://2img.net/h/i1200.photobucket.com/albums/bb340/x3TheAran595/Chaos21110011effect.gif"
 })
 }
-if(message.content === "magie!slach"){ 
+if(message.content.startsWith("magie!slash")){
     message.channel.send(`**${message.author.username}** a utilisé compétence slach!\nDégâts : 15`,{
     file: "https://i.pinimg.com/originals/9b/7f/62/9b7f623ff55be9b911b1f20c1f836250.gif"
 })
 }
-if(message.content === "magie!slach"){ 
+if(message.content.startsWith("magie!implosion")){
     message.channel.send(`**${message.author.username}** lance la capacité implosion!\nDégâts : 50`,{
     file: "https://conserver.files.wordpress.com/2010/03/09.gif"
 })
 }
-if(message.content === "magie!protection"){ 
+if(message.content.startsWith("protection")){
     message.channel.send(`**${message.author.username}** lance la capacité protection!\nMur défendant de : 25 dégâts`,{
     file: "https://orangemushroom.files.wordpress.com/2012/06/anti-magic-shell-effect.gif"
 })
