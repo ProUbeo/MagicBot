@@ -63,9 +63,34 @@ if(message.content.startsWith("magie!implosion")){
     file: "https://conserver.files.wordpress.com/2010/03/09.gif"
 })
 }
-if(message.content.startsWith("protection")){
+if(message.content.startsWith("magie!protection")){
     message.channel.send(`**${message.author.username}** lance la capacité protection!\nMur défendant de : 25 dégâts`,{
     file: "https://orangemushroom.files.wordpress.com/2012/06/anti-magic-shell-effect.gif"
+})
+}
+if(message.content.startsWith("magie!onde")){
+    message.channel.send(`**${message.author.username}** lance la capacité onde!\nDégâts : 30`,{
+    file: "https://orangemushroom.files.wordpress.com/2011/11/energy-buster.gif"
+})
+}
+if(message.content.startsWith("magie!soin")){
+    message.channel.send(`**${message.author.username}** lance la capacité de soins!\nSoigne : 10`,{
+    file: "https://i.pinimg.com/originals/2b/6e/9f/2b6e9f46c2cc37569eabe5c40731579c.gif"
+})
+}
+if(message.content.startsWith("magie!sword")){
+    message.channel.send(`**${message.author.username}** lance la capacité sword!\nDégâts : 75`,{
+    file: "https://orangemushroom.files.wordpress.com/2012/07/blaze-up-effect.gif"
+})
+}
+if(message.content.startsWith("magie!angel")){
+    message.channel.send(`**${message.author.username}** à utiliser la capacité pour avoir des ailes !`,{
+    file: "https://i.pinimg.com/originals/ce/0d/8d/ce0d8df5b15699d45caf2b32ef125380.gif"
+})
+}
+if(message.content.startsWith("magie!dragon")){
+    message.channel.send(`**${message.author.username}** lance le laser du dragon!\nDégâts : 75`,{
+    file: "https://2img.net/h/i1156.photobucket.com/albums/p575/x3TheAran5921/Kaiser65121100effect.gif"
 })
 }
 if (message.content === "magie!help 1" ){  
@@ -87,7 +112,7 @@ if (message.content === "magie!help" ){
     const embed = new Discord.RichEmbed()
     .setTitle("aide disponible ")
     .setColor(0x0086AE)
-    .setDescription("magie!help 1\nmagie!help 2")
+    .setDescription("magie!help 1\nmagie!help 2\nmagie!help 3")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
   
     message.channel.send({embed});
@@ -106,10 +131,19 @@ if (message.content === "magie!help 2"){
 
     message.channel.send({embed});
 }
-if(message.content.startsWith("command")){
-    message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
-        file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
-    }) 
+if (message.content === "magie!help 3"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Magie niveau 2")
+    .setColor(0x0086AE)
+    .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
+    .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
+    .addField("Commande magique",
+      "magie!soin : soigne de 10 pv (à utiliser 3 fois par match)\nmagie!onde : fait 30 de dégâts\nmagie!sword : fait 75 de dégâts (à utiliser 3 fois par match)\nmagie!angel : fait s'envoler dans les airs pour esquiver un attaque qui se passe au sol ou qui est pas redirigable !\nmagie!dragon : fait 75 de dégâts (utilisable 3 fois par match)")
+      .addField("Nombre de PV",
+      "300PV pour un mage niveau 3")
+
+    message.channel.send({embed});
 }
 }
 )
