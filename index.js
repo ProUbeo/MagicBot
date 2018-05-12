@@ -106,5 +106,11 @@ if (message.content === "magie!help 2"){
 
     message.channel.send({embed});
 }
+if(message.content.startsWith === "magie!feu²"){
+        message.channel.send(`**${message.author.username}** lance la capacité de feu !\nDégâts : 25`,{
+        file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
+    })
+    
+}
 }
 )
