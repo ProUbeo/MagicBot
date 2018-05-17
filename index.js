@@ -145,5 +145,31 @@ if (message.content === "magie!help 3"){
 
     message.channel.send({embed});
 }
+if (message.content === "magie!help 3"){  
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Magie niveau 2")
+    .setColor(0x0086AE)
+    .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
+    .setFooter("derniere update : (jamais)")
+    .addField("Commande magique",
+      "magie!soin : soigne de 10 pv (à utiliser 3 fois par match)\nmagie!onde : fait 30 de dégâts\nmagie!sword : fait 75 de dégâts (à utiliser 3 fois par match)\nmagie!angel : fait s'envoler dans les airs pour esquiver un attaque qui se passe au sol ou qui est pas redirigable !\nmagie!dragon : fait 75 de dégâts (utilisable 3 fois par match)")
+      .addField("Nombre de PV",
+      "300PV pour un mage niveau 3")
+
+    message.channel.send({embed});
+}
+if (message.content === "magie!fiche" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("fiche éleve")
+    .setAuthor("<@441296290828124160>")
+    .setColor(0x0086AE)
+    .setDescription("voila les fiche éleve que je possède")
+    .setFooter("un probleme ? \n demander a Sakamoto-san ou a Lemres\n mis a jour le : JAMAIS :D")
+
+  
+    message.channel.send({embed});
+}
 }
 )
