@@ -165,24 +165,11 @@ if (message.content === "magie!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Xarrin\nfiche!Yuki\nfiche!Lemres\nle reste et encore en cours ou reporter")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamotole reste et encore en cours ou reporter")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
 
 
-    message.channel.send({embed});
-}
-if (message.content === "fiche!Xarrin" ){ 
-
-    const embed = new Discord.RichEmbed()
-    .setTitle("Fiche d'inscription")
-    .setAuthor("MagicBot")
-    .setColor(0x0086AE)
-    .setDescription("fiche d'inscription de Xarrin")
-    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée",
-      "Bonjour. je me présente Xarrin j'ai 19 ans depuis petit j'ai un don au niveau de la magie de feu je peut déjà l'utilisé même si elle est faible je voudrais parcourir le monde et je pense donc que si ma magie n'est pas assez puissante je ne parcourais pas se vaste monde. sinon j'ai les cheveux rouge les yeux bleu mais un physique très peu musclé sinon pour me reconnaître je porte souvent une tenue de combat noir et une cape rouge. Merci d'avoir pris le temps de lire mon inscription.")
-  
     message.channel.send({embed});
 }
 if (message.content === "fiche!" ){ 
@@ -224,6 +211,20 @@ if (message.content === "fiche!Lemres" ){
           .addField("fiche dans la base de donnée",
       "donnée introuvable")
       .setImage("https://www.videoblocks.com/video/multicolor-video-with-text-error-404---not-found-stwc9hqrxixj9ejm9")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Sakamoto" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Sakamoto-san")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée",
+      `konichiwa , je me nomme sakamoto-san , j'ai 15 année humaine (je vous épargne l'âge en année chat) je voudrais apprendre la magie pour l'apprendre\nrace : neko\nmagie mieux métriser : eau et vent\nvoila mon "apparence" :\n(et oui j'avais un petit creux)`)
+      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440153290211065856/nichijou__sakamoto_san_gijinka_by_lightanddarksoul-d3k4h0m.jpg")
   
     message.channel.send({embed});
 }
