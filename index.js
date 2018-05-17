@@ -164,7 +164,7 @@ if (message.content === "magie!fiche" ){
     const embed = new Discord.RichEmbed()
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(cc0099)
     .setDescription("aucun :/ \n mais c'est en cours de dev :D")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
