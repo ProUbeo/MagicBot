@@ -162,13 +162,13 @@ if (message.content === "magie!help 3"){
 if (message.content === "magie!fiche" ){ 
 
     const embed = new Discord.RichEmbed()
-    .setTitle("fiche éleve")
-    .setAuthor("<@441296290828124160>")
+    .setTitle("voila les fiche éleve que je possède")
+    .setAuthor("MagicBot")
     .setColor(0x0086AE)
-    .setDescription("voila les fiche éleve que je possède")
-    .setFooter("un probleme ? \n demander a Sakamoto-san ou a Lemres\n mis a jour le : JAMAIS :D")
+    .setDescription("aucun :/ \n mais c'est en cours de dev :D")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
-  
+
     message.channel.send({embed});
 }
 }
