@@ -165,7 +165,7 @@ if (message.content === "m!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nfiche!Fire\nfiche!Arca\nfiche!BlackDown\nle reste et encore en cours ou reporter")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nfiche!Fire\nfiche!Arca\nfiche!BlackDown\nfiche!Naku\nfiche!fiche!NightPanda\nfiche!Tokyo\n(si il vous manque venez vous inscrire :3)")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
     message.channel.send({embed});
@@ -354,6 +354,42 @@ if (message.content === "fiche!BlackDown" ){
     .setDescription("fiche d'inscription de BlackDown")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée","BlackDown\nNom : Black\nPrénom : Down\nÂge : 14 ans\nPhysique : Grand, musclé, blond et j'aime dormir. J'ai pas mal de poils sur le corps et je suis assez fainéant.\nAnimal : Koala\nRace : Lycian\nElement : Terre + feu")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Naku" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Naku")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("bonjour\nje voudrait entre dans cette merveilleuse ecole\nnom: Gamer\nprenom:Léo\nSurnom: naku\nAge :15\nphisique :grand fin\nentrainement :ninja\nélément : raiton katon\ntechnique: manipulation des ombres rouges (manipulation des ombres + kaleidoskope)\naime : les blague quand t il le faut et le serieux quand il le faut aussi .\nMerci\nCordialement\nLéogamer (ou Naku)")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!NightPanda" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de NightPanda")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("Bonsoir!!!!!!!!!!!!!!!\nNom:Jsp\nNom:Lucas\nSurnom:Cancer\nAge:13\nphisique:normale et jsp")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Tokyo" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Tokyo GZtail")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("Bonjour\nNom : Tokyo\nNom de famille : GZtail \nSurmon: Kaneki \nAge : 13 \nPhisique : resenble à epic Sans")
   
     message.channel.send({embed});
 }
