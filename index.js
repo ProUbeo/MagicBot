@@ -165,7 +165,7 @@ if (message.content === "m!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nle reste et encore en cours ou reporter")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nfiche!fire\nle reste et encore en cours ou reporter")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
     message.channel.send({embed});
@@ -275,8 +275,8 @@ if (message.content === "fiche!Ilonna" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Ilonna Yamazaki")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","* Prénom : Ilonna\n* Âge : 13\n* Nom :  Yamazaki\n* Pouvoir : Quand elle touche quelqu'un et qu'elle utilise ses pouvoirs la personne est en feu.\n* Caractère : psychopate et folle,aime le sang.\n* Élément : flammes\n* Classe : Mage.\n* Arme : Katana\n* Apparence : (image)")
-      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440802664108916736/2Q.png")
+    .addField("fiche dans la base de donnée","* Prénom : Ilonna\n* Âge : 13\n* Nom :  Yamazaki\n* Pouvoir : Quand elle touche quelqu'un et qu'elle utilise ses pouvoirs la personne est en feu.\n* Caractère : psychopate et folle,aime le sang.\n* Élément : flammes\n* Classe : Mage.\n* Arme : Katana\n* Apparence : (image)")
+        .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440802664108916736/2Q.png")
   
     message.channel.send({embed});
 }
@@ -317,6 +317,19 @@ if (message.content === "fiche!Minazuki" ){
   
     message.channel.send({embed});
 }
+if (message.content === "fiche!fire" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Fire Monkestra")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée","fiche!fire\nFire Monkestra\nNom:Monkestra\nPrénom :Fire\nAge:15 ans\n Animal:Un loup\nÉlément:Feu \nArme:Machette,le feu,la magie et des invocations \nCaractère : plus il tuer de gens son vrai visage apparaît et si on s’en prend a Lilia il pète un câble.Lilia est sont amie d'enfance.")
+      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/441208223442272277/jpg.jpg")
+  
+    message.channel.send({embed});
+}
 if(message.content === "m!help"){
 
     const embed = new Discord.RichEmbed()
@@ -330,4 +343,4 @@ if(message.content === "m!help"){
     message.channel.send({embed});
 }
 }
-)//penser a metre les nom dans les fiche
+)
