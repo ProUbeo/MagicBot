@@ -97,7 +97,7 @@ if (message.content === "m!help 1" ){
 
     const embed = new Discord.RichEmbed()
     .setTitle("Magie niveau 1")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("Voici toute les attaque qu'un mage niveau 1 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
@@ -111,7 +111,7 @@ if (message.content === "m!help" ){
 
     const embed = new Discord.RichEmbed()
     .setTitle("aide disponible ")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("m!help 1\nm!help 2\nm!help 3")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
   
@@ -121,7 +121,7 @@ if (message.content === "m!help 2"){
 
     const embed = new Discord.RichEmbed()
     .setTitle("Magie niveau 2")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("Voici toute les attaque qu'un mage niveau 2 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
@@ -135,7 +135,7 @@ if (message.content === "m!help 3"){
 
     const embed = new Discord.RichEmbed()
     .setTitle("Magie niveau 2")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
@@ -149,7 +149,7 @@ if (message.content === "m!help 3"){
 
     const embed = new Discord.RichEmbed()
     .setTitle("Magie niveau 3")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
     .setFooter("derniere update : (jamais)")
     .addField("Commande magique",
