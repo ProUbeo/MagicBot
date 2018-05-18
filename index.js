@@ -165,7 +165,7 @@ if (message.content === "m!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nle reste et encore en cours ou reporter")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nle reste et encore en cours ou reporter")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
     message.channel.send({embed});
@@ -277,6 +277,43 @@ if (message.content === "fiche!Ilonna" ){
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée","* Prénom : Ilonna\n* Âge : 13\n* Nom :  Yamazaki\n* Pouvoir : Quand elle touche quelqu'un et qu'elle utilise ses pouvoirs la personne est en feu.\n* Caractère : psychopate et folle,aime le sang.\n* Élément : flammes\n* Classe : Mage.\n* Arme : Katana\n* Apparence : (image)")
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440802664108916736/2Q.png")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Maxime" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Maxime Sword")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée","BONJOUR JE M'APPELE MAXIME\nJe suis plutôt enthousiasme , j'aime faire des blagues (defois nul) . Je suis le comique de service mais je suis très attentif .  J'ai 15 ans je suis plutôt de taille normale , j'aime bien être bien sapé comme jamais ... Mon pouvoir est ancestrale Lucas tu connais je crache des projectiles, mais aussi je rêverais d'être Irons Man ...  Je pense que ma classe serai JE SUIS SURPUISSANT HAHAHAHAHAHAAHHA... NON JE RIGOLE je pense être un plutôt bonne élève et mon arme serai attention tain tain !!! Une baguette chinoise pour manger les nouilles")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Sangwoo" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Sangwoo")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée","* Prénom : Sangwoo\n* Nom : Oh\n* Âge : 19\n* Caractère :  Il adopte un visage «joyeux, énergique» et se montre souvent souriant, même lorsqu'il fait un contact visuel avec des étrangers dans un environnement social. Ces traits masquent cependant ses caractéristiques plus psychopathiques et sadiques. Ses émotions, face à ses victimes, alternent de façon imprévisible entre la miséricorde et l'hostilité violente qui est en quelque sorte causée par sa personnalité narcissique merdique. C'est le meilleur ami de Lilia Shinata.\n* Apparence :")
+      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440807911334346763/tumblr_or28o9ZSaw1w1266zo1_1280.jpg")
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Minazuki" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Minazuki")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée","Nom:Bloody\nPrénom: Minazuki\nSexe: féminin\nAge: 16ans\nPhysique: plutot grande, fine,calme et blonde\nRace: Humain\nÉlément: L'eau et ses variantes (glace, vapeur, etc)")
   
     message.channel.send({embed});
 }
