@@ -165,25 +165,11 @@ if (message.content === "magie!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamotole reste et encore en cours ou reporter")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nle reste et encore en cours ou reporter")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
 
 
-    message.channel.send({embed});
-}
-if (message.content === "fiche!" ){ 
-
-    const embed = new Discord.RichEmbed()
-    .setTitle("Fiche d'inscription")
-    .setAuthor("MagicBot")
-    .setColor(0x0086AE)
-    .setDescription("fiche d'inscription de ")
-    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée",
-      "Prénom: Yuki\nNom: Atsuki\nAge: 15 ans\nCaractère: froide mais peux devenir gentille. Elle ne demande qu'a la léser tranquille mais si on touche à ses amis on est sur d'y léser notre peau.\nElle aide ses amis au prit de sa vie elle et souvent triste lors des séparations.\n Histoire: Elle est née avec un don voir es aura des gens. Elle connais un jeune homme nommais Yuri Shiruba. Elle en tombe amoureuse mais le perd de vue et ne reçois des nouvelle que par son frère Otakashi qui lui annonce qu'il est plus en vie et jure de le venger mais elle le retrouve peux après mais ne le crois pas.\n Elle vas peux à peux l'accepter et vas devenir amie avec Nova Subari et Shu.\n Elle vivra éternellement et ne pourra pas trouver la pait éternel.\n Pouvoir: Quand elle quel touche quelque chose ça ce transforme en glace et si elle ferme son poing ça se brise.\nPeur: de perdre ses amis\nPoints faible: Les dispute et les séparation.\nPoints fort: Sa détermination et son courage.\nRace: Kitsune.\nClasse: Mage.\nArme: Un katana capable de tout tranché et en un coups peux infliger un poison.\nApparence: (image)")
-      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/439839983730294794/Avatar_RP2.png")
-  
     message.channel.send({embed});
 }
 if (message.content === "fiche!Yuki" ){ 
@@ -192,7 +178,7 @@ if (message.content === "fiche!Yuki" ){
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
     .setColor(0x0086AE)
-    .setDescription("fiche d'inscription de Yuki")
+    .setDescription("fiche d'inscription de ")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
       "Prénom: Yuki\nNom: Atsuki\nAge: 15 ans\nCaractère: froide mais peux devenir gentille. Elle ne demande qu'a la léser tranquille mais si on touche à ses amis on est sur d'y léser notre peau.\nElle aide ses amis au prit de sa vie elle et souvent triste lors des séparations.\n Histoire: Elle est née avec un don voir es aura des gens. Elle connais un jeune homme nommais Yuri Shiruba. Elle en tombe amoureuse mais le perd de vue et ne reçois des nouvelle que par son frère Otakashi qui lui annonce qu'il est plus en vie et jure de le venger mais elle le retrouve peux après mais ne le crois pas.\n Elle vas peux à peux l'accepter et vas devenir amie avec Nova Subari et Shu.\n Elle vivra éternellement et ne pourra pas trouver la pait éternel.\n Pouvoir: Quand elle quel touche quelque chose ça ce transforme en glace et si elle ferme son poing ça se brise.\nPeur: de perdre ses amis\nPoints faible: Les dispute et les séparation.\nPoints fort: Sa détermination et son courage.\nRace: Kitsune.\nClasse: Mage.\nArme: Un katana capable de tout tranché et en un coups peux infliger un poison.\nApparence: (image)")
@@ -210,7 +196,7 @@ if (message.content === "fiche!Lemres" ){
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
       "donnée introuvable")
-      .setImage("https://www.videoblocks.com/video/multicolor-video-with-text-error-404---not-found-stwc9hqrxixj9ejm9")
+      .setImage("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EGy7pjQwl/multicolor-video-with-text-error-404-not-found_skwt525re_thumbnail-small01.jpg")
   
     message.channel.send({embed});
 }
