@@ -210,7 +210,7 @@ if (message.content === "fiche!Sakamoto" ){
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
       `konichiwa , je me nomme sakamoto-san , j'ai 15 année humaine (je vous épargne l'âge en année chat) je voudrais apprendre la magie pour l'apprendre\nrace : neko\nmagie mieux métriser : eau et vent\nvoila mon "apparence" :\n(et oui j'avais un petit creux)`)
-       .addField("petite info qui vienne de lui",`G͐́ͭ̀ͬ͆̓ͬ̑ͪ̿̉̐̄̑̌ͩ̀҉̷̸̨̮̭͙ͅr̵̡̜͔̱͈̘̙̼̰ͪ̈́̄͒͒͆ͥ̿ͮͬͣ  ͣ̊̄̚̚͜͡ō̵̩͔͙͇̦̥̬̺̫̬ͭ̓ͧ̿ͦs̵̋̀̐ͤͧ͌̄ͮ̈́͋̌̓̉ͬ̍̽͏̨̛̺̘̼̱ ̮̺̥̠̻͖̭͚̩ͅͅͅP̵̷̡̨̬̖̳͓̫̜̙͚̱̻̖͖̫̩͗̑ͭͮ͗̇͌̑͊̌ọ̴̢̭͔͚͕  ͤ̒̿ͧͮ̽͌̋҉͕̟̘̭̬̞̩́͢͠a͐̌̎̽ͫ̒̉͛̅̓̍͗ͥͮͣ͞͏̸̣͉̺͍̖͝ͅy̴̡̧̙͚̤̝̟̗͎̿ͥ͆̇̋ͬͯͫ̇ G͐́ͭ̀ͬ͆̓ͬ̑ͪ̿̉̐̄̑̌ͩ̀҉̷̸̨̮̭͙ͅr̵̡̜͔̱͈̘̙̼̰ͪ̈́̄͒͒͆ͥ̿ͮͬͣ ͣ̊̄̚̚͜͡`)
+       .addField("autre info sur lui",`G͐́ͭ̀ͬ͆̓ͬ̑ͪ̿̉̐̄̑̌ͩ̀҉̷̸̨̮̭͙ͅr̵̡̜͔̱͈̘̙̼̰ͪ̈́̄͒͒͆ͥ̿ͮͬͣ  ͣ̊̄̚̚͜͡ō̵̩͔͙͇̦̥̬̺̫̬ͭ̓ͧ̿ͦs̵̋̀̐ͤͧ͌̄ͮ̈́͋̌̓̉ͬ̍̽͏̨̛̺̘̼̱ ̮̺̥̠̻͖̭͚̩ͅͅͅP̵̷̡̨̬̖̳͓̫̜̙͚̱̻̖͖̫̩͗̑ͭͮ͗̇͌̑͊̌ọ̴̢̭͔͚͕  ͤ̒̿ͧͮ̽͌̋҉͕̟̘̭̬̞̩́͢͠a͐̌̎̽ͫ̒̉͛̅̓̍͗ͥͮͣ͞͏̸̣͉̺͍̖͝ͅy̴̡̧̙͚̤̝̟̗͎̿ͥ͆̇̋ͬͯͫ̇ G͐́ͭ̀ͬ͆̓ͬ̑ͪ̿̉̐̄̑̌ͩ̀҉̷̸̨̮̭͙ͅr̵̡̜͔̱͈̘̙̼̰ͪ̈́̄͒͒͆ͥ̿ͮͬͣ ͣ̊̄̚̚͜͡`)
 
 
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440153290211065856/nichijou__sakamoto_san_gijinka_by_lightanddarksoul-d3k4h0m.jpg")
