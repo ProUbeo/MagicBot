@@ -165,7 +165,7 @@ if (message.content === "m!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nle reste et encore en cours ou reporter")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nle reste et encore en cours ou reporter")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
     message.channel.send({embed});
@@ -255,6 +255,31 @@ if (message.content === "fiche!Shinon" ){
   
     message.channel.send({embed});
 }
+if (message.content === "fiche!Lilia" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Lilia Shinata")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée",`* Prénom : Lilia\n* Nom : Shinata\n* Âge : 14 ans\n * Caractère : Elle peut passer de la fille la plus conne du monde à la plus grande psychopathe. Elle se fait vite remarquer à cause de sa grande gueule mais peut vite devenir discrète et presque invisible aux yeux de tous. Avec son tempérament colérique, elle passe son temps à se battre pour n'importe quelle raison. Elle adore voir les gens souffrire mais quand il s'agit d'un de ses proches, elle peut devenir votre pire cauchemar.\n* Histoire : Lilia vit dans une forêt et reçois souvent la visite de son meilleur ami d'enfance Fire, dont elle est amoureuse , ils recueillent des loups souffrants. Jusque là, rien de bien choquant. Mais au fur et à mesure que Fire lui fais découvrire ce qui s'appelle "vie sociale" et Lilia se faisant harceler commence à se mutiler. 3mois après le dernier de sa famille (Son frère) disparaît laissant à sa soeur comme seule conseil de se battre pour vivre. Depuis à chaque manque de respect, envers elle ou sa famille, elle se bat se qui reveille sa vraie nature ^^`)
+  
+    message.channel.send({embed});
+}
+if (message.content === "fiche!Ilonna" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Ilonna Yamazaki")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée","* Prénom : Ilonna\n* Âge : 13\n* Nom :  Yamazaki\n* Pouvoir : Quand elle touche quelqu'un et qu'elle utilise ses pouvoirs la personne est en feu.\n* Caractère : psychopate et folle,aime le sang.\n* Élément : flammes\n* Classe : Mage.\n* Arme : Katana\n* Apparence : (image)")
+      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440802664108916736/2Q.png")
+  
+    message.channel.send({embed});
+}
 if(message.content === "m!help"){
 
     const embed = new Discord.RichEmbed()
@@ -268,4 +293,4 @@ if(message.content === "m!help"){
     message.channel.send({embed});
 }
 }
-)
+)//penser a metre les nom dans les fiche
