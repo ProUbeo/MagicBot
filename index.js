@@ -211,7 +211,7 @@ if (message.content === "fiche!Sakamoto" ){
           .addField("fiche dans la base de donnée",
       `konichiwa , je me nomme sakamoto-san , j'ai 15 année humaine (je vous épargne l'âge en année chat) je voudrais apprendre la magie pour l'apprendre\nrace : neko\nmagie mieux métriser : eau et vent\nvoila mon "apparence" :\n(et oui j'avais un petit creux)`)
       .addField("petite info qui vienne de lui",
-      `personne ne saurais si il serai un chat ou un humain de base\nil ajoute aussi qu'il est rare de connaître des chose sur lui juste en demandant au autre\nseul les personne qui le connaisse vraiment peuvent connaître la vérité\nil ajoute aussi qu'il c'est déjà fais passer pour une autre personne a la perfection et change souvent apparence quand il le veux`)
+      `Tͣͯ̒̽̈́̈́̓̇͏̤̥̼̖͔͔̤͈͟ỡ̎̉͏͚̝̼̪̟͎̘ ̘̱̭̘̠͔̤̫͖̏í̷͓̣̣͇͒̓̔̄ͩͅn̷̼̲̼͎̘͕͚͕ͯͨ͘dgv̴̹̲̔ͯ͒̅ͩ͛͑́̚͞Tͣͯ̒̽̈́̈́̓̇͏̤̥̼̖͔͔̤͈͟ỡ̎̉͏͚̝̼̪̟͎̘ ̘̱̭̘̠͔̤̫͖̏í̷͓̣̣͇͒̓̔̄ͩͅn̷̼̲̼͎̘͕͚͕ͯͨ͘fgv̴̹̲̔ͯ͒̅ͩ͛͑́̚͞Tͣͯ̒̽̈́̈́̓̇͏̤̥̼̖͔͔̤͈͟ỡ̎̉͏͚̝̼̪̟͎̘ ̘̱̭̘̠͔̤̫͖̏í̷͓̣̣͇͒̓̔̄ͩͅn̷̼̲̼͎̘͕͚͕ͯͨ͘v̴̹̲̔ͯ͒̅ͩ͛͑́̚͞dgdTͣͯ̒̽̈́̈́̓̇͏̤̥̼̖͔͔̤͈͟ỡ̎̉͏͚̝̼̪̟͎̘ ̘̱̭̘̠͔̤̫͖̏í̷͓̣̣͇͒̓̔̄ͩͅgdn̷̼̲̼͎̘͕͚͕ͯͨ͘v̴̹̲̔ͯ͒̅ͩ͛͑́̚͞Tͣͯ̒̽̈́̈́̓̇͏̤̥̼̖͔͔̤͈͟ỡ̎̉͏͚̝̼̪̟͎̘gfs ̘̱̭̘̠͔̤̫͖̏í̷͓̣̣͇͒̓̔̄ͩͅn̷̼̲̼͎̘͕͚͕ͯͨ͘v̴̹̲̔ͯ͒̅ͩ͛͑́̚͞Tͣͯ̒̽̈́̈́̓̇͏̤̥̼̖͔͔̤͈͟ỡ̎̉͏͚̝̼̪̟͎̘ ̘̱̭̘̠͔̤̫͖̏í̷͓̣̣͇͒̓̔̄ͩͅn̷̼̲̼͎̘͕͚͕ͯͨ͘hv̴̹̲̔ͯ͒̅ͩ͛͑́̚͞ ̞̖o̢̻̰͖̖̯͋̉̈͐̈́ͫdgk̲̜̹̰̺͍̤͓̒̍̒͐ͨͥͦͯͭ̕e̐͊͑͠͏͔̳̤͕̲̼͍͓t͖̣̞̯̮̟́͐̆͡ ̞̖o̢̻̰͖̖͋̉̈͐̈́ͫk̲̜̹̰̺͍̤͓̒̍̒͐ͨͥͦͯͭ̕e̐͊͑͠͏͔̳̤͕̲̼͍͓t͖̣̞̯̮̟́͐̆͡o̢̻̰͖̖̯͋̉̈͐̈́ͫk̲̜̹̰̺͍̤͓̒̍̒͐ͨͥͦͯͭ̕e̐͊͑͠͏͔̳̤͕̲̼͍͓t͖̣̞̯̮̟́͐̆͡ ̞̖o̢̻̰͖̖̯͋̉̈͐̈́ͫk̲̜̒̍̒͐ͨͥͦͯͭ̕e̐͊͑͠͏͔̳̤͕̲̼͍͓t͖̣̞̯̮̟́͐̆͡o̢̻̰͖͋̉̈͐̈́ͫfdfk̲̜̹̰̺͍̤͓̒̍̒͐ͨͥͦͯͭ̕e̐͊͑͠͏͔̳̤͕̲̼͍͓t͖̣̞̯̮̟́͐̆͡dfdk̲̜̹̰̺͍̤͓̒̍̒͐ͨͥͦͯͭ̕e̐͊͑͠͏͔̳̤͕̲̼͍͓t͖̣̞̯̮̟́͐̆͡`)
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440153290211065856/nichijou__sakamoto_san_gijinka_by_lightanddarksoul-d3k4h0m.jpg")
   
     message.channel.send({embed});
@@ -344,6 +344,18 @@ if (message.content === "fiche!Arca" ){
   
     message.channel.send({embed});
 }
+if (message.content === "fiche!BlackDown" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de BlackDown")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée","BlackDown\nNom : Black\nPrénom : Down\nÂge : 14 ans\nPhysique : Grand, musclé, blond et j'aime dormir. J'ai pas mal de poils sur le corps et je suis assez fainéant.\nAnimal : Koala\nRace : Lycian\nElement : Terre + feu")
+  
+    message.channel.send({embed});
+}
 if(message.content === "m!help"){
 
     const embed = new Discord.RichEmbed()
@@ -356,6 +368,5 @@ if(message.content === "m!help"){
 
     message.channel.send({embed});
 }
-
 }
 )
