@@ -180,7 +180,7 @@ if (message.content === "fiche!Yuki" ){
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
     .addField("fiche dans la base de donnée",
     "Prénom: Yuki\nNom: Atsuki\nAge: 15 ans\nCaractère: froide mais peux devenir gentille. Elle ne demande qu'a la léser tranquille mais si on touche à ses amis on est sur d'y léser notre peau.\nElle aide ses amis au prit de sa vie elle et souvent triste lors des séparations.\nHistoire: Elle est née avec un don voir es aura des gens. Elle connais un jeune homme nommais Yuri Shiruba. Elle en tombe amoureuse mais le perd de vue et ne reçois des nouvelle que par son frère Otakashi qui lui annonce qu'il est plus en vie et jure de le venger mais elle le retrouve peux après mais ne le crois pas.\nElle vas peux à peux l'accepter et vas devenir amie avec Nova Subari et Shu.\nElle vivra éternellement et ne pourra pas trouver la pait éternel.\nPouvoir: Quand elle quel touche quelque chose ça ce transforme en glace et si elle ferme son poing ça se brise.")
-    .addField("",
+    .addField("suite",
     "Peur: de perdre ses amis\nPoints faible: Les dispute et les séparation.\nPoints fort: Sa détermination et son courage.\nRace: Kitsune.\nClasse: Mage.\nArme: Un katana capable de tout tranché et en un coups peux infliger un poison.\nApparence: (image)")
     .setImage("https://cdn.discordapp.com/attachments/439460582345670666/439839983730294794/Avatar_RP2.png")
   
