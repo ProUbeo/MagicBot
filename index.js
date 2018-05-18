@@ -342,5 +342,19 @@ if(message.content === "m!help"){
 
     message.channel.send({embed});
 }
+if (message.content === "fiche!Arca" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0x0086AE)
+    .setDescription("fiche d'inscription de Arca")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée",
+      "donnée introuvable")
+      .setImage("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EGy7pjQwl/multicolor-video-with-text-error-404-not-found_skwt525re_thumbnail-small01.jpg")
+  
+    message.channel.send({embed});
+}
 }
 )
