@@ -365,7 +365,7 @@ if (message.content === "fiche!Naku" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Naku")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("bonjour\nje voudrait entre dans cette merveilleuse ecole\nnom: Gamer\nprenom:Léo\nSurnom: naku\nAge :15\nphisique :grand fin\nentrainement :ninja\nélément : raiton katon\ntechnique: manipulation des ombres rouges (manipulation des ombres + kaleidoskope)\naime : les blague quand t il le faut et le serieux quand il le faut aussi .\nMerci\nCordialement\nLéogamer (ou Naku)")
+          .addField("fiche dans la base de donnée","bonjour\nje voudrait entre dans cette merveilleuse ecole\nnom: Gamer\nprenom:Léo\nSurnom: naku\nAge :15\nphisique :grand fin\nentrainement :ninja\nélément : raiton katon\ntechnique: manipulation des ombres rouges (manipulation des ombres + kaleidoskope)\naime : les blague quand t il le faut et le serieux quand il le faut aussi .\nMerci\nCordialement\nLéogamer (ou Naku)")
   
     message.channel.send({embed});
 }
@@ -377,7 +377,7 @@ if (message.content === "fiche!NightPanda" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de NightPanda")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("Bonsoir!!!!!!!!!!!!!!!\nNom:Jsp\nNom:Lucas\nSurnom:Cancer\nAge:13\nphisique:normale et jsp")
+          .addField("fiche dans la base de donnée","Bonsoir!!!!!!!!!!!!!!!\nNom:Jsp\nNom:Lucas\nSurnom:Cancer\nAge:13\nphisique:normale et jsp")
   
     message.channel.send({embed});
 }
@@ -389,7 +389,7 @@ if (message.content === "fiche!Tokyo" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Tokyo GZtail")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("Bonjour\nNom : Tokyo\nNom de famille : GZtail \nSurmon: Kaneki \nAge : 13 \nPhisique : resenble à epic Sans")
+          .addField("fiche dans la base de donnée","Bonjour\nNom : Tokyo\nNom de famille : GZtail \nSurmon: Kaneki \nAge : 13 \nPhisique : resenble à epic Sans")
   
     message.channel.send({embed});
 }
