@@ -393,6 +393,22 @@ if (message.content === "fiche!Tokyo" ){
   
     message.channel.send({embed});
 }
+if (message.content === "<@441296290828124160>" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("liste des dev :D")
+    .setAuthor("MagicBot")
+    .setColor(0xcc0099)
+    .setDescription("voila la liste de tout les dev :D")
+          .addField("Sakamoto-san",
+          "créateur du MagicBot il a fais plus de 95% des ligne de code\nacompagner de Lemres il vont de leur mieux pour avoir le meilleur avec le peu qui savent\nil est payer en croquette avec un suplement d'ont il ne peu pas oublier\nniveau de fatigue lier au bot : 95%")
+          .addField("Lemres",
+          "hebergeur de magie lier a lui\nil guide Sakamoto-san pour avoir des commande en plus et le paye de maniere tres special\nniveau de fatigue lier au bot : 5%")
+          .addField("chose a ajouter :/",
+          "pour le moment il ne manque rien . . .")
+  
+    message.channel.send({embed});
+}
 if(message.content === "m!help"){
 
     const embed = new Discord.RichEmbed()
