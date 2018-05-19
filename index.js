@@ -244,20 +244,6 @@ if (message.content === "fiche!Shinon" ){
   
     message.channel.send({embed});
 }
-if (message.content === "fiche!Shinon" ){ 
-
-    const embed = new Discord.RichEmbed()
-    .setTitle("Fiche d'inscription")
-    .setAuthor("MagicBot")
-    .setColor(0x0086AE)
-    .setDescription("fiche d'inscription de Shinon de Gun Gale Online")
-    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée",
-          `Bonjour à tous! Je m'appelle Shinon alias "Hécate" ( en référence au nom de mon arme "PGM Ultima Ratio Hécate Il" )j'ai 14ans et je viens tous droit du monde virtuel de Gun Gale Online. Dans ce jeux vidéo je suis un sniper de haut niveau, pendant que je promenant tranquillement quelqu'un ma interpeler une certaine Kirito (mais j'ai compris par la suite que c'était un garçon:sweat_smile:) et c'est là que tous à commencer pour moi. Plus tard Kirito ma inviter à jouer au monde de "ALO" mais je pense que je ne suis pas très fan! C'est pour ça que mon pseudo est "Shinon de Gun Gale Online". Ensuite j'ai entendu parler de ce serveur et je me suis dis que sa ne coûtait rien de faire un tour!:grin:`)
-      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440264325324603393/image.gif")
-  
-    message.channel.send({embed});
-}
 if (message.content === "fiche!Lilia" ){ 
 
     const embed = new Discord.RichEmbed()
@@ -267,8 +253,10 @@ if (message.content === "fiche!Lilia" ){
     .setDescription("fiche d'inscription de Lilia Shinata")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
-          `* Prénom : Lilia\n* Nom : Shinata\n* Âge : 14 ans\n * Caractère : Elle peut passer de la fille la plus conne du monde à la plus grande psychopathe. Elle se fait vite remarquer à cause de sa grande gueule mais peut vite devenir discrète et presque invisible aux yeux de tous. Avec son tempérament colérique, elle passe son temps à se battre pour n'importe quelle raison. Elle adore voir les gens souffrire mais quand il s'agit d'un de ses proches, elle peut devenir votre pire cauchemar.\n* Histoire : Lilia vit dans une forêt et reçois souvent la visite de son meilleur ami d'enfance Fire, dont elle est amoureuse , ils recueillent des loups souffrants. Jusque là, rien de bien choquant. Mais au fur et à mesure que Fire lui fais découvrire ce qui s'appelle "vie sociale" et Lilia se faisant harceler commence à se mutiler. 3mois après le dernier de sa famille (Son frère) disparaît laissant à sa soeur comme seule conseil de se battre pour vivre. Depuis à chaque manque de respect, envers elle ou sa famille, elle se bat se qui reveille sa vraie nature ^^`)
-  
+          `* Prénom : Lilia\n* Nom : Shinata\n* Âge : 14 ans\n * Caractère : Elle peut passer de la fille la plus conne du monde à la plus grande psychopathe. Elle se fait vite remarquer à cause de sa grande gueule mais peut vite devenir discrète et presque invisible aux yeux de tous. Avec son tempérament colérique, elle passe son temps à se battre pour n'importe quelle raison. Elle adore voir les gens souffrire mais quand il s'agit d'un de ses proches, elle peut devenir votre pire cauchemar.\n* Histoire : Lilia vit dans une forêt et reçois souvent la visite de son meilleur ami d'enfance Fire, dont elle est amoureuse , ils recueillent des loups souffrants. Jusque là, rien de bien choquant. Mais au fur et à mesure que Fire lui fais découvrire ce qui s'appelle "vie sociale" et Lilia se faisant harceler commence à se mutiler. 3mois après le dernier de sa famille (Son frère) disparaît laissant à sa soeur comme seule conseil de se battre pour vivre.`)
+          .addField("(suite a un grand nombre de charactere on dois faire sa :/)",
+          ` Depuis à chaque manque de respect, envers elle ou sa famille, elle se bat se qui reveille sa vraie nature ^^`,)
+
     message.channel.send({embed});
 }
 if (message.content === "fiche!Ilonna" ){ 
