@@ -238,7 +238,8 @@ if (message.content === "fiche!Shinon" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Shinon de Gun Gale Online")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField(`fiche dans la base de donnée","Bonjour à tous! Je m'appelle Shinon alias "Hécate" ( en référence au nom de mon arme "PGM Ultima Ratio Hécate Il" )j'ai 14ans et je viens tous droit du monde virtuel de Gun Gale Online. Dans ce jeux vidéo je suis un sniper de haut niveau, pendant que je promenant tranquillement quelqu'un ma interpeler une certaine Kirito (mais j'ai compris par la suite que c'était un garçon:sweat_smile:) et c'est là que tous à commencer pour moi. Plus tard Kirito ma inviter à jouer au monde de "ALO" mais je pense que je ne suis pas très fan! C'est pour ça que mon pseudo est "Shinon de Gun Gale Online". Ensuite j'ai entendu parler de ce serveur et je me suis dis que sa ne coûtait rien de faire un tour!:grin:`)
+          .addField("fiche dans la base de donnée",
+          `Bonjour à tous! Je m'appelle Shinon alias "Hécate" ( en référence au nom de mon arme "PGM Ultima Ratio Hécate Il" )j'ai 14ans et je viens tous droit du monde virtuel de Gun Gale Online. Dans ce jeux vidéo je suis un sniper de haut niveau, pendant que je promenant tranquillement quelqu'un ma interpeler une certaine Kirito (mais j'ai compris par la suite que c'était un garçon:sweat_smile:) et c'est là que tous à commencer pour moi. Plus tard Kirito ma inviter à jouer au monde de "ALO" mais je pense que je ne suis pas très fan! C'est pour ça que mon pseudo est "Shinon de Gun Gale Online". Ensuite j'ai entendu parler de ce serveur et je me suis dis que sa ne coûtait rien de faire un tour!:grin:`)
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440264325324603393/image.gif")
   
     message.channel.send({embed});
@@ -251,7 +252,8 @@ if (message.content === "fiche!Shinon" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Shinon de Gun Gale Online")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée",`Bonjour à tous! Je m'appelle Shinon alias "Hécate" ( en référence au nom de mon arme "PGM Ultima Ratio Hécate Il" )j'ai 14ans et je viens tous droit du monde virtuel de Gun Gale Online. Dans ce jeux vidéo je suis un sniper de haut niveau, pendant que je promenant tranquillement quelqu'un ma interpeler une certaine Kirito (mais j'ai compris par la suite que c'était un garçon:sweat_smile:) et c'est là que tous à commencer pour moi. Plus tard Kirito ma inviter à jouer au monde de "ALO" mais je pense que je ne suis pas très fan! C'est pour ça que mon pseudo est "Shinon de Gun Gale Online". Ensuite j'ai entendu parler de ce serveur et je me suis dis que sa ne coûtait rien de faire un tour!:grin:`)
+          .addField("fiche dans la base de donnée",
+          `Bonjour à tous! Je m'appelle Shinon alias "Hécate" ( en référence au nom de mon arme "PGM Ultima Ratio Hécate Il" )j'ai 14ans et je viens tous droit du monde virtuel de Gun Gale Online. Dans ce jeux vidéo je suis un sniper de haut niveau, pendant que je promenant tranquillement quelqu'un ma interpeler une certaine Kirito (mais j'ai compris par la suite que c'était un garçon:sweat_smile:) et c'est là que tous à commencer pour moi. Plus tard Kirito ma inviter à jouer au monde de "ALO" mais je pense que je ne suis pas très fan! C'est pour ça que mon pseudo est "Shinon de Gun Gale Online". Ensuite j'ai entendu parler de ce serveur et je me suis dis que sa ne coûtait rien de faire un tour!:grin:`)
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440264325324603393/image.gif")
   
     message.channel.send({embed});
@@ -264,7 +266,8 @@ if (message.content === "fiche!Lilia" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Lilia Shinata")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée",`* Prénom : Lilia\n* Nom : Shinata\n* Âge : 14 ans\n * Caractère : Elle peut passer de la fille la plus conne du monde à la plus grande psychopathe. Elle se fait vite remarquer à cause de sa grande gueule mais peut vite devenir discrète et presque invisible aux yeux de tous. Avec son tempérament colérique, elle passe son temps à se battre pour n'importe quelle raison. Elle adore voir les gens souffrire mais quand il s'agit d'un de ses proches, elle peut devenir votre pire cauchemar.\n* Histoire : Lilia vit dans une forêt et reçois souvent la visite de son meilleur ami d'enfance Fire, dont elle est amoureuse , ils recueillent des loups souffrants. Jusque là, rien de bien choquant. Mais au fur et à mesure que Fire lui fais découvrire ce qui s'appelle "vie sociale" et Lilia se faisant harceler commence à se mutiler. 3mois après le dernier de sa famille (Son frère) disparaît laissant à sa soeur comme seule conseil de se battre pour vivre. Depuis à chaque manque de respect, envers elle ou sa famille, elle se bat se qui reveille sa vraie nature ^^`)
+          .addField("fiche dans la base de donnée",
+          `* Prénom : Lilia\n* Nom : Shinata\n* Âge : 14 ans\n * Caractère : Elle peut passer de la fille la plus conne du monde à la plus grande psychopathe. Elle se fait vite remarquer à cause de sa grande gueule mais peut vite devenir discrète et presque invisible aux yeux de tous. Avec son tempérament colérique, elle passe son temps à se battre pour n'importe quelle raison. Elle adore voir les gens souffrire mais quand il s'agit d'un de ses proches, elle peut devenir votre pire cauchemar.\n* Histoire : Lilia vit dans une forêt et reçois souvent la visite de son meilleur ami d'enfance Fire, dont elle est amoureuse , ils recueillent des loups souffrants. Jusque là, rien de bien choquant. Mais au fur et à mesure que Fire lui fais découvrire ce qui s'appelle "vie sociale" et Lilia se faisant harceler commence à se mutiler. 3mois après le dernier de sa famille (Son frère) disparaît laissant à sa soeur comme seule conseil de se battre pour vivre. Depuis à chaque manque de respect, envers elle ou sa famille, elle se bat se qui reveille sa vraie nature ^^`)
   
     message.channel.send({embed});
 }
@@ -276,7 +279,8 @@ if (message.content === "fiche!Ilonna" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Ilonna Yamazaki")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-    .addField("fiche dans la base de donnée","* Prénom : Ilonna\n* Âge : 13\n* Nom :  Yamazaki\n* Pouvoir : Quand elle touche quelqu'un et qu'elle utilise ses pouvoirs la personne est en feu.\n* Caractère : psychopate et folle,aime le sang.\n* Élément : flammes\n* Classe : Mage.\n* Arme : Katana\n* Apparence : (image)")
+    .addField("fiche dans la base de donnée",
+    "* Prénom : Ilonna\n* Âge : 13\n* Nom :  Yamazaki\n* Pouvoir : Quand elle touche quelqu'un et qu'elle utilise ses pouvoirs la personne est en feu.\n* Caractère : psychopate et folle,aime le sang.\n* Élément : flammes\n* Classe : Mage.\n* Arme : Katana\n* Apparence : (image)")
         .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440802664108916736/2Q.png")
   
     message.channel.send({embed});
@@ -289,7 +293,8 @@ if (message.content === "fiche!Maxime" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Maxime Sword")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","BONJOUR JE M'APPELE MAXIME\nJe suis plutôt enthousiasme , j'aime faire des blagues (defois nul) . Je suis le comique de service mais je suis très attentif .  J'ai 15 ans je suis plutôt de taille normale , j'aime bien être bien sapé comme jamais ... Mon pouvoir est ancestrale Lucas tu connais je crache des projectiles, mais aussi je rêverais d'être Irons Man ...  Je pense que ma classe serai JE SUIS SURPUISSANT HAHAHAHAHAHAAHHA... NON JE RIGOLE je pense être un plutôt bonne élève et mon arme serai attention tain tain !!! Une baguette chinoise pour manger les nouilles")
+          .addField("fiche dans la base de donnée",
+          "BONJOUR JE M'APPELE MAXIME\nJe suis plutôt enthousiasme , j'aime faire des blagues (defois nul) . Je suis le comique de service mais je suis très attentif .  J'ai 15 ans je suis plutôt de taille normale , j'aime bien être bien sapé comme jamais ... Mon pouvoir est ancestrale Lucas tu connais je crache des projectiles, mais aussi je rêverais d'être Irons Man ...  Je pense que ma classe serai JE SUIS SURPUISSANT HAHAHAHAHAHAAHHA... NON JE RIGOLE je pense être un plutôt bonne élève et mon arme serai attention tain tain !!! Une baguette chinoise pour manger les nouilles")
   
     message.channel.send({embed});
 }
@@ -301,7 +306,8 @@ if (message.content === "fiche!Sangwoo" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Sangwoo")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","* Prénom : Sangwoo\n* Nom : Oh\n* Âge : 19\n* Caractère :  Il adopte un visage «joyeux, énergique» et se montre souvent souriant, même lorsqu'il fait un contact visuel avec des étrangers dans un environnement social. Ces traits masquent cependant ses caractéristiques plus psychopathiques et sadiques. Ses émotions, face à ses victimes, alternent de façon imprévisible entre la miséricorde et l'hostilité violente qui est en quelque sorte causée par sa personnalité narcissique merdique. C'est le meilleur ami de Lilia Shinata.\n* Apparence :")
+          .addField("fiche dans la base de donnée",
+          "* Prénom : Sangwoo\n* Nom : Oh\n* Âge : 19\n* Caractère :  Il adopte un visage «joyeux, énergique» et se montre souvent souriant, même lorsqu'il fait un contact visuel avec des étrangers dans un environnement social. Ces traits masquent cependant ses caractéristiques plus psychopathiques et sadiques. Ses émotions, face à ses victimes, alternent de façon imprévisible entre la miséricorde et l'hostilité violente qui est en quelque sorte causée par sa personnalité narcissique merdique. C'est le meilleur ami de Lilia Shinata.\n* Apparence :")
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/440807911334346763/tumblr_or28o9ZSaw1w1266zo1_1280.jpg")
   
     message.channel.send({embed});
@@ -314,7 +320,8 @@ if (message.content === "fiche!Minazuki" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Minazuki")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","Nom:Bloody\nPrénom: Minazuki\nSexe: féminin\nAge: 16ans\nPhysique: plutot grande, fine,calme et blonde\nRace: Humain\nÉlément: L'eau et ses variantes (glace, vapeur, etc)")
+          .addField("fiche dans la base de donnée",
+          "Nom:Bloody\nPrénom: Minazuki\nSexe: féminin\nAge: 16ans\nPhysique: plutot grande, fine,calme et blonde\nRace: Humain\nÉlément: L'eau et ses variantes (glace, vapeur, etc)")
   
     message.channel.send({embed});
 }
@@ -326,7 +333,8 @@ if (message.content === "fiche!Fire" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Fire Monkestra")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","fiche!fire\nFire Monkestra\nNom:Monkestra\nPrénom :Fire\nAge:15 ans\n Animal:Un loup\nÉlément:Feu \nArme:Machette,le feu,la magie et des invocations \nCaractère : plus il tuer de gens son vrai visage apparaît et si on s’en prend a Lilia il pète un câble.Lilia est sont amie d'enfance.")
+          .addField("fiche dans la base de donnée",
+          "fiche!fire\nFire Monkestra\nNom:Monkestra\nPrénom :Fire\nAge:15 ans\n Animal:Un loup\nÉlément:Feu \nArme:Machette,le feu,la magie et des invocations \nCaractère : plus il tuer de gens son vrai visage apparaît et si on s’en prend a Lilia il pète un câble.Lilia est sont amie d'enfance.")
       .setImage("https://cdn.discordapp.com/attachments/439460582345670666/441208223442272277/jpg.jpg")
   
     message.channel.send({embed});
@@ -353,7 +361,8 @@ if (message.content === "fiche!BlackDown" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de BlackDown")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","BlackDown\nNom : Black\nPrénom : Down\nÂge : 14 ans\nPhysique : Grand, musclé, blond et j'aime dormir. J'ai pas mal de poils sur le corps et je suis assez fainéant.\nAnimal : Koala\nRace : Lycian\nElement : Terre + feu")
+          .addField("fiche dans la base de donnée",
+          "BlackDown\nNom : Black\nPrénom : Down\nÂge : 14 ans\nPhysique : Grand, musclé, blond et j'aime dormir. J'ai pas mal de poils sur le corps et je suis assez fainéant.\nAnimal : Koala\nRace : Lycian\nElement : Terre + feu")
   
     message.channel.send({embed});
 }
@@ -365,7 +374,8 @@ if (message.content === "fiche!Naku" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Naku")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","bonjour\nje voudrait entre dans cette merveilleuse ecole\nnom: Gamer\nprenom:Léo\nSurnom: naku\nAge :15\nphisique :grand fin\nentrainement :ninja\nélément : raiton katon\ntechnique: manipulation des ombres rouges (manipulation des ombres + kaleidoskope)\naime : les blague quand t il le faut et le serieux quand il le faut aussi .\nMerci\nCordialement\nLéogamer (ou Naku)")
+          .addField("fiche dans la base de donnée",
+          "bonjour\nje voudrait entre dans cette merveilleuse ecole\nnom: Gamer\nprenom:Léo\nSurnom: naku\nAge :15\nphisique :grand fin\nentrainement :ninja\nélément : raiton katon\ntechnique: manipulation des ombres rouges (manipulation des ombres + kaleidoskope)\naime : les blague quand t il le faut et le serieux quand il le faut aussi .\nMerci\nCordialement\nLéogamer (ou Naku)")
   
     message.channel.send({embed});
 }
@@ -377,7 +387,8 @@ if (message.content === "fiche!NightPanda" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de NightPanda")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","Bonsoir!!!!!!!!!!!!!!!\nNom:Jsp\nNom:Lucas\nSurnom:Cancer\nAge:13\nphisique:normale et jsp")
+          .addField("fiche dans la base de donnée",
+          "Bonsoir!!!!!!!!!!!!!!!\nNom:Jsp\nNom:Lucas\nSurnom:Cancer\nAge:13\nphisique:normale et jsp")
   
     message.channel.send({embed});
 }
@@ -389,7 +400,8 @@ if (message.content === "fiche!Tokyo" ){
     .setColor(0x0086AE)
     .setDescription("fiche d'inscription de Tokyo GZtail")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
-          .addField("fiche dans la base de donnée","Bonjour\nNom : Tokyo\nNom de famille : GZtail \nSurmon: Kaneki \nAge : 13 \nPhisique : resenble à epic Sans")
+          .addField("fiche dans la base de donnée",
+          "Bonjour\nNom : Tokyo\nNom de famille : GZtail \nSurmon: Kaneki \nAge : 13 \nPhisique : resenble à epic Sans")
   
     message.channel.send({embed});
 }
