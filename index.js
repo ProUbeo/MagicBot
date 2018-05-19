@@ -175,7 +175,7 @@ if (message.content === "fiche!Yuki" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Yuki Atsuki")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
     .addField("fiche dans la base de donnée",
@@ -191,7 +191,7 @@ if (message.content === "fiche!Lemres" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Lemres")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -205,7 +205,7 @@ if (message.content === "fiche!Sakamoto" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Sakamoto-san")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -222,7 +222,7 @@ if (message.content === "fiche!Haruka" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Haruka Kurenai")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",`Prénom :  Haruka. \nNom :  Kurenai. \nÂge :  16 ans. \nCaractère :  Solitaire, colérique, froide, hais les humains,  et très timide,  quand on la connais on peut voir se qu'elle ressent vraiment donc,  de la tristesse de la douce et de la gentillesse envers les personnes qu'elle apprécie.\n  Histoire :  A 5/6 ans toute la famille de Haruka mourut, des humains avaient mis le feu a sa maison pendant dans nuit criant " tuont le démon ! "  Haruka est la seule survivante,  elle fut recueillie par son oncle. En une soirée elle a perdue ses parents et son frere. Son oncle la inscrit dans cette établissement pensant qu'elle pourrait penser à autre en étant là-bas,  mais pour elle c'était juste un moyen pour qu'elle devienne plus forte.\n Physiquement :  Elle a deux apparences,  une ou on dirais une humaine et l'autre c'est sa vrai forme donc démoniaque (ui elle a une forme humaine)\n Race :  demon qui peut se transformer en corbeau. \nArme :  Une faux.\n  Apparence en image :`)
@@ -235,7 +235,7 @@ if (message.content === "fiche!Shinon" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Shinon de Gun Gale Online")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -249,7 +249,7 @@ if (message.content === "fiche!Lilia" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Lilia Shinata")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -264,7 +264,7 @@ if (message.content === "fiche!Ilonna" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Ilonna Yamazaki")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
     .addField("fiche dans la base de donnée",
@@ -278,7 +278,7 @@ if (message.content === "fiche!Maxime" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Maxime Sword")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -291,7 +291,7 @@ if (message.content === "fiche!Sangwoo" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Sangwoo")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -305,7 +305,7 @@ if (message.content === "fiche!Minazuki" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Minazuki")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -318,7 +318,7 @@ if (message.content === "fiche!Fire" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Fire Monkestra")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -332,7 +332,7 @@ if (message.content === "fiche!Arca" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Arca")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -346,7 +346,7 @@ if (message.content === "fiche!BlackDown" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de BlackDown")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -359,7 +359,7 @@ if (message.content === "fiche!Naku" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Naku")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -372,7 +372,7 @@ if (message.content === "fiche!NightPanda" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de NightPanda")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
@@ -385,7 +385,7 @@ if (message.content === "fiche!Tokyo" ){
     const embed = new Discord.RichEmbed()
     .setTitle("Fiche d'inscription")
     .setAuthor("MagicBot")
-    .setColor(0x0086AE)
+    .setColor(0xcc0099)
     .setDescription("fiche d'inscription de Tokyo GZtail")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
           .addField("fiche dans la base de donnée",
