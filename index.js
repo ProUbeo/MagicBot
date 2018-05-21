@@ -5,7 +5,7 @@ var prefix = ("MagicBot!")
 
 bot.on('ready', function() {
     bot.user.setUsername("MagicBot")
-    bot.user.setPresence({ game: { name: 'brûler des mages malpoli'}, status: 'online'}) //en ligne;
+    bot.user.setPresence({ game: { name: 'brûler des mages malpoli'}, status: 'invisible'}) //en ligne;
     console.log("Connected")
 });
 
