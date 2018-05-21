@@ -393,6 +393,21 @@ if (message.content === "fiche!Tokyo" ){
   
     message.channel.send({embed});
 }
+if (message.content === "fiche!Kirito" ){ 
+
+    const embed = new Discord.RichEmbed()
+    .setTitle("Fiche d'inscription")
+    .setAuthor("MagicBot")
+    .setColor(0xcc0099)
+    .setDescription("fiche d'inscription de Kirito")
+    .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
+          .addField("fiche dans la base de donnée",
+      "Prénom :Kirito\nNom:Ozawa\nÂge :15 ans\nCaractère :paisible\nPouvoir :magie d épéiste\nHistoire : Kirito c est mis dans un jeu vidéo pour d découvrir le monde de celui si et fais rencontre avec un jeune fille nommée Asuna à deux ils ont fait beaucoup de parcours pour devenir plus fort ils se connaissaient de plus en plus et devint un beau coupleArme: épée\nApparence :")
+    
+      .setImage("https://cdn.discordapp.com/attachments/439460582345670666/447825112486510603/JPEG_20180520_113905.jpg")
+  
+    message.channel.send({embed});
+}
 if (message.content === "<@441296290828124160>" ){ 
 
     const embed = new Discord.RichEmbed()
