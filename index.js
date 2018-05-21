@@ -165,7 +165,7 @@ if (message.content === "m!fiche" ){
     .setTitle("voila les fiche éleve que je possède")
     .setAuthor("MagicBot")
     .setColor(0xcc0099)
-    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nfiche!Fire\nfiche!Arca\nfiche!BlackDown\nfiche!Naku\nfiche!NightPanda\nfiche!Tokyo\n(si il vous manque venez vous inscrire :3)")
+    .setDescription("fiche!Yuki\nfiche!Lemres\nfiche!Sakamoto\nfiche!Haruka\nfiche!Shinon\nfiche!Lilia\nfiche!Ilonna\nfiche!Maxime\nfiche!Sangwoo\nfiche!Minazuki\nfiche!Fire\nfiche!Arca\nfiche!BlackDown\nfiche!Naku\nfiche!NightPanda\nfiche!Tokyo\n\nfiche!Kirito\n(si il vous manque venez vous inscrire :3)")
     .setFooter("un probleme ? demander a Sakamoto-san ou a Lemres")
 
     message.channel.send({embed});
