@@ -28,6 +28,11 @@ if(message.content.startsWith("m!stick-magic")){
     file: "https://orangemushroom.files.wordpress.com/2012/06/magic-booster-effect.gif"
 })
 }
+if(message.content.startsWith("m!celeste sword")){
+    message.channel.send(`**${message.author.username}** lance la capacité celeste sword!\nDégâts : 500`,{
+    file: "https://i.gifer.com/4v9H.gif"
+})
+}
 if(message.content.startsWith("m!nature")){
     message.channel.send(`**${message.author.username}** lance la capacité orbe de la nature!\nDégâts : 25`,{
     file: "https://i.pinimg.com/originals/69/eb/43/69eb43047ff86ade658b2c677c0567ee.gif"
