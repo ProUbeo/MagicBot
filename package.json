@@ -13,6 +13,7 @@
     "discord.js": "^11.3.2",
     "erlpack": "github:discordapp/erlpack",
     "libsodium-wrappers": "^0.7.3",
+    "lowdb": "^1.0.0",
     "node-opus": "^0.2.7",
     "uws": "^9.147.0"
   }
