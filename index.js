@@ -10,6 +10,7 @@ const db = low(adapter);
 db.defaults({ histoires: [],  xp: []}).write()
 
 var prefix = ("M!")
+var randnum = 0;
 
 bot.on('ready', function() {
     bot.user.setUsername("MagicBot")
@@ -52,6 +53,17 @@ if(!db.get("xp").find({user : msgauthor}).value()){
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
     })
 }
+if (message.content === "texte"){
+    random();
+    if (randnum == 1){
+     message.channel.send(`PPAP`);
+}
+if (randnum == 2){
+    message.channel.send(`HIIIIIIII`);
+}
+if (randnum == 3){
+    message.channel.send(`ALLER`);
+}}
 if(message.content.startsWith("m!tornade")){
     message.channel.send(`**${message.author.username}** lance la capacité tornade!\nDégâts : 25`,{
     file: "https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif"
@@ -473,3 +485,8 @@ if(message.content === "m!help"){
 }
 }
 )
+function random(min, max) {
+    min = Math.ceil(0)// 0 est impossible a avoir
+    max = Math.floor(3)
+    randnum = Math.floor(Math.random() * (max - min +1) + min);
+ }
