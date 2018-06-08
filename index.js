@@ -52,6 +52,9 @@ if(!db.get("xp").find({user : msgauthor}).value()){
         file: "https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif"
     })
 }
+if (message.content === "M!ServeurListe"){
+    message.channel.send(bot.guilds.map(r => r.name + ` | **${r.memberCount}** membres`))
+    }
 if(message.content.startsWith("m!tornade")){
     message.channel.send(`**${message.author.username}** lance la capacité tornade!\nDégâts : 25`,{
     file: "https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif"
