@@ -22,35 +22,7 @@ bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
     
-    if(message.content == "m!guess-number start"){
-    message.reply("partie lancé")
-    party_launch = true;
-    number_random = Math.floor(Math.random() * (5000 - 0) + 0)
-    console.log(number_random);
-}
-if(party_launch && message.content !=null){
-    if(Number.isInteger(parseInt(message.content))){
-        if(message.content > number_random){
-            message.reply("plus petit")
-        }
-        else if(message.content < number_random){
-            message.reply("plus grand")
-        }
-        else{
-            message.reply('a gagné la partie');
-            party_launch = false
-        }
-    }
-}
-if(message.content == "m!guess-number stop"){
-    if(party_launch == true){
-        message.reply("party stoppé")
-        party_launch = false;
-}else{
-    message.reply("aucune partie en cours")
-}
-}
-    
+
     var msgauthor = message.author.id;
 
     if(message.author.bot)return;
