@@ -132,8 +132,8 @@ if(message.content.startsWith("m!dragon")){
 }
 if("234368202379886593".includes(message.author.id)){
 if(message.content.startsWith("m!cat")){
-    message.channel.send(`**${message.author.username}** lance la capacité regard de chat cat!\nDégâts : 99999`,{
-    file: "http://maxigamertest.wikia.com/wiki/File:Tumblr_ln0v4gGezS1qzea6yo1_500.gif"
+    message.channel.send(`**${message.author.username}** lance la capacité regard de chat!\nDégâts : 99999`,{
+    file: "https://vignette.wikia.nocookie.net/maxigamertest/images/0/0a/Tumblr_ln0v4gGezS1qzea6yo1_500.gif"
 })}}
 if (message.content === "m!help 1" ){  
 
