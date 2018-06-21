@@ -9,7 +9,7 @@ const db = low(adapter);
 
 db.defaults({ histoires: [],  xp: []}).write()
 
-var prefix = ("m!")
+var prefix = ("M!")
 
 bot.on('ready', function() {
     bot.user.setUsername("MagicBot")
@@ -21,8 +21,6 @@ bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
-    
-
     var msgauthor = message.author.id;
 
     if(message.author.bot)return;
@@ -132,6 +130,11 @@ if(message.content.startsWith("m!dragon")){
     file: "https://2img.net/h/i1156.photobucket.com/albums/p575/x3TheAran5921/Kaiser65121100effect.gif"
 })
 }
+if("234368202379886593".includes(message.author.id)){
+if(message.content.startsWith("m!cat")){
+    message.channel.send(`**${message.author.username}** lance la capacité regard de chat cat!\nDégâts : 99999`,{
+    file: "http://maxigamertest.wikia.com/wiki/File:Tumblr_ln0v4gGezS1qzea6yo1_500.gif"
+})}}
 if (message.content === "m!help 1" ){  
 
     const embed = new Discord.RichEmbed()
