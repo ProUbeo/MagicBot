@@ -222,11 +222,9 @@ if (message.content === "m!help 1" ){
 if (message.content === "m!help" ){  
 
     const embed = new Discord.RichEmbed()
-    .setTitle("aide disponible ")
+    .setTitle(``)
     .setColor(0xcc0099)
     .setDescription("m!help 1\nm!help 2\nm!help 3")
-    .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
-  
     message.channel.send({embed});
 }
 if (message.content === "m!help 2"){  
@@ -288,5 +286,20 @@ if (message.content === "<@441296290828124160>" ){
   
     message.channel.send({embed});
 }
+
+if (message.content.startsWith("m!celeste-sword")){
+    if("323807479651631104".includes(message.author.id)){
+        const embed = new Discord.RichEmbed()
+        .setTitle(``)
+        .setThumbnail(message.author.avatarURL)
+        .setDescription(`${message.author} lance la capacité **Celeste Sword** sur ${message.mentions.users.first()} !\nDégâts : **300** pv`)
+        .setColor(0xcc0099)
+        .setImage("https://i.gifer.com/4v9H.gif")
+        message.channel.send({embed})
+    
+}else{
+    return message.reply("Tu n'as pas le droit de faire cette commande")
+}}
+
 }
 )
