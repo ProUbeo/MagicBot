@@ -44,7 +44,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .addField(`Niveau de ${message.author}`, `Niveau ${xpfinal[1]}`)
             message.channel.send({embed: xp_embed});
         }}
-        if(message.content === "m!feu"){
+        if(message.content.startsWith(prefix + "feu")){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setDescription(`${message.author} lance la capacité **Feu** sur ${message.mentions.users.first()} !\nDégâts : **25** pv`)
