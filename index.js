@@ -85,7 +85,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             message.channel.send({embed})
         }
 
-        if(message.content.startsWith(prefix + "glace")){
+        if(message.content.startsWith(prefix + "ice")){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -149,7 +149,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`${message.author} lance la capacité **Protection** sur ${message.mentions.users.first()} !\nDéfend : **25** pv`)
+            .setDescription(`${message.author} se protège !\nDéfend : **25** pv`)
             .setColor(0xcc0099)
             .setImage("https://orangemushroom.files.wordpress.com/2012/06/anti-magic-shell-effect.gif")
             message.channel.send({embed})
@@ -189,7 +189,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`${message.author} lance la capacité **Angel**pour s'envoler !`)
+            .setDescription(`${message.author} lance la capacité **Angel** pour s'envoler !`)
             .setColor(0xcc0099)
             .setImage("https://i.pinimg.com/originals/ce/0d/8d/ce0d8df5b15699d45caf2b32ef125380.gif")
             message.channel.send({embed})
@@ -213,7 +213,7 @@ if (message.content === "m!help 1" ){
     .setDescription("Voici toute les attaque qu'un mage niveau 1 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
-      "m!feu (-25PV) (utilisable 3 foix)\nm!tornade (-25PV)\nm!stick-magic (-15PV) (utilisable 3 foix)\nm!nature (-25PV)\nm!glace (-20PV)")
+      "m!feu (-25PV) (utilisable 3 foix)\nm!tornade (-25PV)\nm!stick-magic (-15PV) (utilisable 3 foix)\nm!nature (-25PV)\nm!ice (-20PV)")
       .addField("Nombre de PV",
       "100PV pour un mage niveau 1")
   
@@ -244,7 +244,7 @@ if (message.content === "m!help 2"){
 if (message.content === "m!help 3"){  
 
     const embed = new Discord.RichEmbed()
-    .setTitle("Magie niveau 2")
+    .setTitle("Magie niveau 3")
     .setColor(0xcc0099)
     .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
