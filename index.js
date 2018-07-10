@@ -247,20 +247,6 @@ if (message.content === "m!help 3"){
     .setTitle("Magie niveau 3")
     .setColor(0xcc0099)
     .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
-    .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
-    .addField("Commande magique",
-      "m!soin : soigne de 10 pv (à utiliser 3 fois par match)\nm!onde : fait 30 de dégâts\nm!sword : fait 75 de dégâts (à utiliser 3 fois par match)\nm!angel : fait s'envoler dans les airs pour esquiver un attaque qui se passe au sol ou qui est pas redirigable !\nm!dragon : fait 75 de dégâts (utilisable 3 fois par match)")
-      .addField("Nombre de PV",
-      "300PV pour un mage niveau 3")
-
-    message.channel.send({embed});
-}
-if (message.content === "m!help 3"){  
-
-    const embed = new Discord.RichEmbed()
-    .setTitle("Magie niveau 3")
-    .setColor(0xcc0099)
-    .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
     .setFooter("derniere update : (jamais)")
     .addField("Commande magique",
       "m!soin : soigne de 10 pv (à utiliser 3 fois par match)\nm!onde : fait 30 de dégâts\nm!sword : fait 75 de dégâts (à utiliser 3 fois par match)\nm!angel : fait s'envoler dans les airs pour esquiver un attaque qui se passe au sol ou qui est pas redirigable !\nm!dragon : fait 75 de dégâts (utilisable 3 fois par match)")
