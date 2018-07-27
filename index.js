@@ -45,6 +45,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             message.channel.send({embed: xp_embed});
         }}
         if(message.content.startsWith(prefix + "feu")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -53,7 +54,9 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setImage("https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif")
             
             message.channel.send({embed})
-        }
+        }else{
+            return message.reply("Mentionne la personne sur laquel tu veux faire ton sort ^^")
+        }}
 
         if(message.content.startsWith(prefix + "tornade")){
             const embed = new Discord.RichEmbed()
