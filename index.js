@@ -55,7 +55,14 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             
             message.channel.send({embed})
         }else{
-            return message.reply("Mentionne la personne sur laquel tu veux faire ton sort ^^")
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Feu** sur le sol !\nDégâts : **25** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif")
+            
+            message.channel.send({embed})
         }}
 
         if(message.content.startsWith(prefix + "tornade")){
