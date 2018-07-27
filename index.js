@@ -66,6 +66,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
         }}
 
         if(message.content.startsWith(prefix + "tornade")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -73,9 +74,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Tornade** sur le sol !\nDégâts : **25** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://pa1.narvii.com/6394/6e5f4ce3b0f5ea1c28d9788aa2a6eb376a041314_hq.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "stick-magic")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -83,9 +93,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://orangemushroom.files.wordpress.com/2012/06/magic-booster-effect.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Stick-magic** sur le sol !\nDégâts : **15** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://orangemushroom.files.wordpress.com/2012/06/magic-booster-effect.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "nature")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -93,9 +112,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://i.pinimg.com/originals/69/eb/43/69eb43047ff86ade658b2c677c0567ee.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Orbe de la nature** sur le sol !\nDégâts : **25** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://i.pinimg.com/originals/69/eb/43/69eb43047ff86ade658b2c677c0567ee.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "ice")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -103,9 +131,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Glace** sur le sol !\nDégâts : **20** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://blog-imgs-18-origin.fc2.com/e/t/e/eternalhydrogen/skill_21111005_effect.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "éclair")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -113,9 +150,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://i.pinimg.com/originals/d7/f1/0e/d7f10ed0e12dce0a783373c2ae8b2c61.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **éclair** sur le sol !\nDégâts : **50** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://i.pinimg.com/originals/d7/f1/0e/d7f10ed0e12dce0a783373c2ae8b2c61.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "vent")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -123,9 +169,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://i.pinimg.com/originals/98/51/59/985159cc49c09556b29c2264208028ca.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Vent** dans les airs (#logique) !\nDégâts : **5** pv *cumulable avec une autre capacité*`)
+            .setColor(0xcc0099)
+            .setImage("https://i.pinimg.com/originals/98/51/59/985159cc49c09556b29c2264208028ca.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "ice-axe")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -133,9 +188,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://2img.net/h/i1200.photobucket.com/albums/bb340/x3TheAran595/Chaos21110011effect.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Ice-axe** sur le sol !\nDégâts : **50** pv *sauf brulé par du feu* :  **10** *pv*`)
+            .setColor(0xcc0099)
+            .setImage("https://2img.net/h/i1200.photobucket.com/albums/bb340/x3TheAran595/Chaos21110011effect.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "slash")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -143,9 +207,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://i.pinimg.com/originals/9b/7f/62/9b7f623ff55be9b911b1f20c1f836250.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Slash** sur le sol !\nDégâts : **15** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://i.pinimg.com/originals/9b/7f/62/9b7f623ff55be9b911b1f20c1f836250.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "implosion")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -153,7 +226,15 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://conserver.files.wordpress.com/2010/03/09.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Implosion** sur le mur (rip le mur) !\nDégâts : **50** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://conserver.files.wordpress.com/2010/03/09.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "protection")){
             const embed = new Discord.RichEmbed()
@@ -166,6 +247,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
         }
 
         if(message.content.startsWith(prefix + "onde")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -173,9 +255,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://orangemushroom.files.wordpress.com/2011/11/energy-buster.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Onde** sur le sol (c tro logique) !\nDéfend : **30** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://orangemushroom.files.wordpress.com/2011/11/energy-buster.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "soin")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -183,9 +274,18 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://i.pinimg.com/originals/2b/6e/9f/2b6e9f46c2cc37569eabe5c40731579c.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Soin** sur lui même !\nSoigne : **10** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://i.pinimg.com/originals/2b/6e/9f/2b6e9f46c2cc37569eabe5c40731579c.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "sword")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -193,7 +293,15 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://orangemushroom.files.wordpress.com/2012/07/blaze-up-effect.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Sword** sur le sol !\nDégâts : **75** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://orangemushroom.files.wordpress.com/2012/07/blaze-up-effect.gif")
+            message.channel.send({embed})
+        }}
 
         if(message.content.startsWith(prefix + "angel")){
             const embed = new Discord.RichEmbed()
@@ -206,6 +314,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
         }
 
         if(message.content.startsWith(prefix + "dragon")){
+            if(message.mentions.users.first()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
@@ -213,7 +322,15 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setColor(0xcc0099)
             .setImage("https://2img.net/h/i1156.photobucket.com/albums/p575/x3TheAran5921/Kaiser65121100effect.gif")
             message.channel.send({embed})
-        }
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **dragon** sur le sol !\nDégâts : **75** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://2img.net/h/i1156.photobucket.com/albums/p575/x3TheAran5921/Kaiser65121100effect.gif")
+            message.channel.send({embed})
+        }}
 
 if (message.content === "m!help 1" ){  
 
@@ -273,13 +390,9 @@ if (message.content === "<@441296290828124160>" ){
     .setColor(0xcc0099)
     .setDescription("voila la liste de tout les dev :D")
 
-          .addField("Lemres",
-          "hebergeur de magie lier a lui\nil guide Sakamoto-san pour avoir des commande en plus et le paye de maniere tres special\nniveau de fatigue lier au bot : 50%")          
-          .addField("Sakamoto-san",
-          "créateur du MagicBot il a fais plus de 95% des ligne de code\nacompagner de Lemres il font de leur mieux pour avoir le meilleur avec le peu qui savent\nil est payer en croquette avec un suplement d'ont il ne peu pas oublier\nniveau de fatigue lier au bot : 50%")
-          .addField("chose a ajouter ",
-          "pour le moment il ne manque rien :/")
-  
+          .addField("Bonjour !",
+          "Je suis MagicBot !\nJ'ai été développé par Lemres et Sakamoto (j'avoue ce sont deux petits *Internal.Error*)\nPour avoir des informations sur mes commandes, faites ```m!help```\nrien de plus ^^")          
+
     message.channel.send({embed});
 }
 
