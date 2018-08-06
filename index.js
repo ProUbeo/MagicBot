@@ -1,4 +1,3 @@
-
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const low = require('lowdb')
@@ -352,6 +351,25 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             message.channel.send({embed})
         }}
 
+        if(message.content.startsWith(prefix + "oracle")){
+            if(message.mentions.users.first()){
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Oracle** sur ${message.mentions.users.first()} !\ncela le fige pentant 1 tour`)
+            .setColor(0xcc0099)
+            .setImage("https://nsa39.casimages.com/img/2018/08/06/180806044107388068.gif")
+            message.channel.send({embed})
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Oracle** sur lui même !\ncela fige ${message.author} **good job**`)
+            .setColor(0xcc0099)
+            .setImage("https://nsa39.casimages.com/img/2018/08/06/180806044107388068.gif")
+            message.channel.send({embed})
+        }}
+
 if (message.content === "m!help 1" ){  
 
     const embed = new Discord.RichEmbed()
@@ -382,7 +400,7 @@ if (message.content === "m!help 2"){
     .setDescription("Voici toute les attaque qu'un mage niveau 2 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
-      "m!eclair : fait 50 de dégâts\nm!vent fait 5 de dégâts\nm!ice-axe : normal : 50 de dégâts. et à sec par une attaque m!feu: 10 de dégâts \nm!slach fait 15 de dégâts\nm!implosion : fait 50 de dégâts\nm!protection : défend de 25 de dégâts (mais si l'attaque fait plus tu es obligé de te faire toucher)")
+      "m!eclair : fait 50 de dégâts\nm!vent fait 5 de dégâts\nm!ice-axe : normal : 50 de dégâts. et à sec par une attaque m!feu: 10 de dégâts \nm!slach fait 15 de dégâts\nm!implosion : fait 50 de dégâts\nm!protection : défend de 25 de dégâts (mais si l'attaque fait plus tu es obligé de te faire toucher)\nm!oracle : immobilise l'adversaire pentant 1 tour")
       .addField("Nombre de PV",
       "200PV pour un mage niveau 2")
 
