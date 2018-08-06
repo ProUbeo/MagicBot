@@ -1,3 +1,4 @@
+
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const low = require('lowdb')
@@ -332,6 +333,25 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             message.channel.send({embed})
         }}
 
+        if(message.content.startsWith(prefix + "dark-spear")){
+            if(message.mentions.users.first()){
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Dark Spear** sur ${message.mentions.users.first()} !\nDégâts : **75** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://nsa39.casimages.com/img/2018/08/06/180806042338995281.gif")
+            message.channel.send({embed})
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Dark Spear** sur le sol !\nDégâts : **75** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://nsa39.casimages.com/img/2018/08/06/180806042338995281.gif")
+            message.channel.send({embed})
+        }}
+
 if (message.content === "m!help 1" ){  
 
     const embed = new Discord.RichEmbed()
@@ -340,7 +360,7 @@ if (message.content === "m!help 1" ){
     .setDescription("Voici toute les attaque qu'un mage niveau 1 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
-      "m!feu (-25PV) (utilisable 3 foix)\nm!tornade (-25PV)\nm!stick-magic (-15PV) (utilisable 3 foix)\nm!nature (-25PV)\nm!ice (-20PV)")
+      "m!feu (-25PV)\nm!tornade (-25PV)\nm!stick-magic (-15PV)\nm!nature (-25PV)\nm!ice (-20PV)")
       .addField("Nombre de PV",
       "100PV pour un mage niveau 1")
   
@@ -362,7 +382,7 @@ if (message.content === "m!help 2"){
     .setDescription("Voici toute les attaque qu'un mage niveau 2 peu faire")
     .setFooter("Si vous avez un probleme demander de l'aide a un modo ou au autre")
     .addField("Commande magique",
-      "m!eclair (-50PV) (utilisable 3 fois par match)\nm!vent (-5) (cumulable avec une autre attaque pour ajouter 5 dégâts voir plus)\nm!ice-axe : normal : 50 de dégâts. et à sec par une attaque ma!feu: 10 de dégâts \nm!slach (-15PV)\nm!implosion (-50PV) (utilisable 1 fois par combats)\nm!protection : défend de 25 de dégâts (mais si l'attaque fait plus tu es obligé de te faire toucher) (utilisable 3 fois par combats)")
+      "m!eclair : fait 50 de dégâts\nm!vent fait 5 de dégâts\nm!ice-axe : normal : 50 de dégâts. et à sec par une attaque m!feu: 10 de dégâts \nm!slach fait 15 de dégâts\nm!implosion : fait 50 de dégâts\nm!protection : défend de 25 de dégâts (mais si l'attaque fait plus tu es obligé de te faire toucher)")
       .addField("Nombre de PV",
       "200PV pour un mage niveau 2")
 
@@ -376,7 +396,7 @@ if (message.content === "m!help 3"){
     .setDescription("Voici toute les attaque qu'un mage niveau 3 peu faire")
     .setFooter("derniere update : (jamais)")
     .addField("Commande magique",
-      "m!soin : soigne de 10 pv (à utiliser 3 fois par match)\nm!onde : fait 30 de dégâts\nm!sword : fait 75 de dégâts (à utiliser 3 fois par match)\nm!angel : fait s'envoler dans les airs pour esquiver un attaque qui se passe au sol ou qui est pas redirigable !\nm!dragon : fait 75 de dégâts (utilisable 3 fois par match)")
+      "m!soin : soigne de 10 pv\nm!onde : fait 30 de dégâts\nm!sword : fait 75 de dégâts\nm!angel : fait s'envoler dans les airs pour esquiver un attaque qui se passe au sol ou qui est pas redirigable !\nm!dragon : fait 75 de dégâts\nm!dark-spear : fait 75 de dégâts")
       .addField("Nombre de PV",
       "300PV pour un mage niveau 3")
 
