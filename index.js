@@ -370,6 +370,25 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             message.channel.send({embed})
         }}
 
+        if(message.content.startsWith(prefix + "dark-scythe")){
+            if(message.mentions.users.first()){
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Dark Scythe** sur ${message.mentions.users.first()} !\nDégâts : **70** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://nsa39.casimages.com/img/2018/08/07/180807044941368056.gif")
+            message.channel.send({embed})
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Dark Scythe** sur le sol !\nDégâts : **70** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://nsa39.casimages.com/img/2018/08/07/180807044941368056.gif")
+            message.channel.send({embed})
+        }}
+
 if (message.content === "m!help 1" ){  
 
     const embed = new Discord.RichEmbed()
@@ -423,14 +442,13 @@ if (message.content === "m!help 3"){
 if (message.content === "<@441296290828124160>" ){ 
 
     const embed = new Discord.RichEmbed()
-    .setTitle("liste des dev :D")
-    .setAuthor("MagicBot")
+    .setTitle(``)
     .setColor(0xcc0099)
-    .setDescription("voila la liste de tout les dev :D")
+    .setDescription("```lancement du générique pourrie```")
 
           .addField("Bonjour !",
           "Je suis MagicBot !\nJ'ai été développé par Lemres et Sakamoto (j'avoue ce sont deux petits *Internal.Error*)\nPour avoir des informations sur mes commandes, faites ```m!help```\nrien de plus ^^")          
-
+        .setFooter(`MagicBot© Créer par Lemres, Sakamoto et l'aide de Faucheur`)
     message.channel.send({embed});
 }
 
