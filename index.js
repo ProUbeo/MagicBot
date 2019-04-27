@@ -49,7 +49,7 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             const embed = new Discord.RichEmbed()
             .setTitle(``)
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`${message.author} lance la capacité **Feu** sur ${message.mentions.users.first()} !\nDégâts : **25** pv`)
+            .setDescription(`${message.author} lance la capacité **Feu** sur ${message.mentions.users.first()} !\nDégâts : **25** pv + effet de brulure enlevant 2 pv a chaque tours pendant 5 tours`)
             .setColor(0xcc0099)
             .setImage("https://orangemushroom.files.wordpress.com/2014/04/ignition-effect.gif")
             
@@ -424,6 +424,25 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             .setDescription(`${message.author} lance la capacité **Storm Ball** sur le sol !\nDégâts : **80** pv`)
             .setColor(0xcc0099)
             .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556370009-energy-096-impact-explosion-radial-mix-by-rt-fx-db21rg5.gif")
+            message.channel.send({embed})
+        }}
+    
+     if(message.content.startsWith(prefix + "fire-ball")){
+            if(message.mentions.users.first()){
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Fire Ball** sur ${message.mentions.users.first()} !\nDégâts : **20** pv + effet de brulure enlevant 2 pv a chaque tours pendant 5 tours`)
+            .setColor(0xcc0099)
+            .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556370019-fire-061-projectile-right-loop-mix-by-rt-fx-db21r8l.gif")
+            message.channel.send({embed})
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Fire Ball** sur le sol !\nDégâts : **20** pv qui fais blûler le sol si c'est du bois (un peu logique XD)`)
+            .setColor(0xcc0099)
+            .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556370019-fire-061-projectile-right-loop-mix-by-rt-fx-db21r8l.gif")
             message.channel.send({embed})
         }}
     
