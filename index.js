@@ -508,6 +508,22 @@ if (message.content === "<@441296290828124160>" ){
         .setFooter(`MagicBot© Créer par Lemres, Sakamoto et l'aide de Faucheur`)
     message.channel.send({embed});
 }
+    if(message.content.startsWith(prefix + "warn")) {
+
+    if(message.mentions.users.first()){
+
+    let messageToSend = message.content.split(" ").slice(2).join(" ");
+    let userToSend = message.mentions.users.first();
+
+    userToSend.send(`Tu as reçu un avertissement de ${message.author.username}!\nraison : ${messageToSend}`);
+    message.delete();
+    message.channel.send(`un Warn de ${message.author.username} à été envoyé à ${message.mentions.users.first().username}`)
+}else{
+message.delete();
+message.channel.send(`erreur`)
+
+}
+}   
 
 if (message.content.startsWith("m!celeste-sword")){
     if("323807479651631104".includes(message.author.id)){
