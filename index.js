@@ -525,6 +525,13 @@ message.channel.send(`erreur`)
 }
 }   
 
+   if (message.content.startsWith("m!say")){
+    let args = message.content.split(" ").slice(1)
+    let thingToEcho = args.join(" ")
+    message.delete();
+    message.channel.send(`${thingToEcho}`)  
+}
+    
 if (message.content.startsWith("m!celeste-sword")){
     if("323807479651631104".includes(message.author.id)){
         const embed = new Discord.RichEmbed()
