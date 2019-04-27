@@ -389,6 +389,44 @@ if(!db.get("xp").find({user : msgauthor}).value()){
             message.channel.send({embed})
         }}
 
+         if(message.content.startsWith(prefix + "triple-hit")){
+            if(message.mentions.users.first()){
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Triple Hit** sur ${message.mentions.users.first()} !\nDégâts : **50** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556369995-energy-086-charge-explosion-radial-mix-by-rt-fx-db21rim.gif")
+            message.channel.send({embed})
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Triple Hit** sur le sol !\nDégâts : **50** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556369995-energy-086-charge-explosion-radial-mix-by-rt-fx-db21rim.gif")
+            message.channel.send({embed})
+        }}
+    
+    if(message.content.startsWith(prefix + "storm-ball")){
+            if(message.mentions.users.first()){
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Storm Ball** sur ${message.mentions.users.first()} !\nDégâts : **80** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556370009-energy-096-impact-explosion-radial-mix-by-rt-fx-db21rg5.gif")
+            message.channel.send({embed})
+        }else{
+            const embed = new Discord.RichEmbed()
+            .setTitle(``)
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`${message.author} lance la capacité **Storm Ball** sur le sol !\nDégâts : **80** pv`)
+            .setColor(0xcc0099)
+            .setImage("https://image.noelshack.com/fichiers/2019/17/6/1556370009-energy-096-impact-explosion-radial-mix-by-rt-fx-db21rg5.gif")
+            message.channel.send({embed})
+        }}
+    
 if (message.content === "m!help 1" ){  
 
     const embed = new Discord.RichEmbed()
@@ -447,7 +485,7 @@ if (message.content === "<@441296290828124160>" ){
     .setDescription("```lancement du générique pourrie```")
 
           .addField("Bonjour !",
-          "Je suis MagicBot !\nJ'ai été développé par Lemres et Sakamoto (j'avoue ce sont deux petits *Internal.Error*)\nPour avoir des informations sur mes commandes, faites ```m!help```\nrien de plus ^^")          
+          "Je suis MagicBot !\nJ'ai été développé par Lemres et Sakamoto (j'avoue ce sont deux petits *Internal.Error*)\nPour avoir des informations sur mes commandes, faites ```m!help```\nJe sert à ajouter des fonctionnalités à discord lors de rp\nJe suis toujours en dev malheureusement donc il risque d'il y avoir des changements :3")          
         .setFooter(`MagicBot© Créer par Lemres, Sakamoto et l'aide de Faucheur`)
     message.channel.send({embed});
 }
@@ -457,13 +495,18 @@ if (message.content.startsWith("m!celeste-sword")){
         const embed = new Discord.RichEmbed()
         .setTitle(``)
         .setThumbnail(message.author.avatarURL)
-        .setDescription(`${message.author} lance la capacité **Celeste Sword** sur ${message.mentions.users.first()} !\nDégâts : **300** pv`)
+        .setDescription(`${message.author} lance la capacité ultime **Celeste Sword** sur ${message.mentions.users.first()} !\nDégâts : **300** pv`)
         .setColor(0xcc0099)
         .setImage("https://i.gifer.com/4v9H.gif")
         message.channel.send({embed})
     
 }else{
-    return message.reply("Tu n'as pas le droit de faire cette commande")
+    const embed = new Discord.RichEmbed()
+        .setTitle(``)
+        .setThumbnail(message.author.avatarURL)
+        .setDescription(`${message.author} tu ne maitrise pas la force ancestrale !\nPars et ne reviens jamais :3`)
+        .setColor(0xcc0099)
+        message.channel.send({embed})
 }}
 
 }
