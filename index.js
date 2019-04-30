@@ -526,18 +526,13 @@ message.channel.send(`erreur`)
 
 }
 }   
-
-if (message.content === "pv-ennemi"){  
+if (message.content.startsWith("pv-ennemi")){
+    let args = message.content.split(" ").slice(1)
     let thingToEcho = args.join(" ")
     message.delete();
-    const embed = new Discord.RichEmbed()
-    .setTitle("")
-    .setColor(0xcc0099)
-    .setDescription(`niveau de vie de l'ennemi(e) :\n${thingToEcho}`)
-    .setFooter("derniere update : (jamais)")
-    
-    message.channel.send({embed});
+    message.channel.send(`niveau de vie de l'ennemi :\n${thingToEcho}, bonne chance ;3`)  
 }
+
     
    if (message.content.startsWith("m!say")){
     let args = message.content.split(" ").slice(1)
