@@ -549,7 +549,15 @@ if (message.content.startsWith("m!celeste-sword")){
         .setDescription(`${message.author} tu ne maitrise pas la force ancestrale !\nPars et ne reviens jamais :3`)
         .setColor(0xcc0099)
         message.channel.send({embed})
-}}
+}else{
+const embed = new Discord.RichEmbed()
+        .setTitle(``)
+        .setThumbnail(message.author.avatarURL)
+        .setDescription(`${message.author} lance la capacité ultime **Celeste Sword** sur le sol (ça doit faire bobo) !\nDégâts : **300** pv`)
+        .setColor(0xcc0099)
+        .setImage("https://i.gifer.com/4v9H.gif")
+        message.channel.send({embed})
+}
 
 }
 )
